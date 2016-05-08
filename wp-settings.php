@@ -17,15 +17,6 @@
  */
 define( 'WPINC', 'wp-includes' );
 
-define('WP_POST_REVISIONS', false);
-define('WP_ALLOW_MULTISITE', true);
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'server-dev');
-define('PATH_CURRENT_SITE', '/did-v2/www/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
-
 // Include files required for initialization.
 require( ABSPATH . WPINC . '/load.php' );
 require( ABSPATH . WPINC . '/default-constants.php' );
