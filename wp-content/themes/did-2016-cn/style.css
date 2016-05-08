@@ -562,8 +562,8 @@ div:focus {
 
 #topic-workshop .product > div {
   width: 300px;
-  -webkit-transition: width 0.5s;
-  transition: width 0.5s;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
   height: 417px;
   overflow: hidden; }
 

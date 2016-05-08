@@ -18,10 +18,25 @@
 	<div id="topic-stadium" class="topic">
 		<div class="map">
 			<div class="locator shanghai" data-tab="shanghai"></div>
-			<div class="locator beijing" data-tab="beijing"></div>
+			<!-- <div class="locator beijing" data-tab="beijing"></div> -->
 			<div class="locator shenzhen" data-tab="shenzhen"></div>
 			<div class="locator chengdu" data-tab="chengdu"></div>
 		</div>
+		<!-- 上海 -->
+		<div class="introduction shanghai active" style="display:block">
+			<div class="image">
+				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" />
+			</div>
+			<div class="text">
+				<h2>上海体验馆</h2>
+				<p class="text">“黑暗中对话”体验发生在完全黑暗的环境中。期待热爱自由、冒险的你加入这段黑暗旅程。75分钟的旅程中，一位“导赏员”将带领不超过八人的团队，以一个全新的角度欣赏这个世界。听觉、嗅觉、味觉、触觉，黑暗中这些熟悉的感官将会代替视觉，帮助您在黑暗中“看见”更多，准备好重新发掘世界的不同了吗？快来体验吧，在这里黑暗将带给你们从未有过的惊喜！</p>
+				<p class="address">
+					·地址：成都市锦江区滨江东路232号（靠近太古里）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					·预约电话：（+86）28-62103889
+				</p>
+				<div class="reserve-button">在线订票</div>
+			</div>
+		</div>	
 		<!-- 深圳 -->
 		<div class="introduction shenzhen active" style="display:block">
 			<div class="image">
@@ -283,14 +298,14 @@ jQuery(function($) {
 			afterMove: function(index) {
 				// 合作伙伴动画
 				if(index == 6) {
-					$('#topic-partners .comment-1 img').fadeIn(800);
+					$('#topic-partners .comment-1 img').fadeIn(500);
 					setTimeout(function() {
-						$('#topic-partners .comment-2 img').fadeIn(800);						
-					}, 2000);
+						$('#topic-partners .comment-2 img').fadeIn(500);						
+					}, 1600);
 					
 					setTimeout(function() {
-						$('#topic-partners .comment-3 img').fadeIn(800);
-					}, 1000);
+						$('#topic-partners .comment-3 img').fadeIn(500);
+					}, 800);
 										
 				}
 			}

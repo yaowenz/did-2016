@@ -108,10 +108,10 @@
 		<div class="button"><span>关注微信</span></div>
 	</div>
 	<div class="tool-corp tool">
-		<div class="button"><span>在线订票</span></div>	
+		<div class="button"><span>工作坊预约</span></div>	
 	</div>
 	<div class="tool-ticket tool">
-		<div class="button"><span>工作坊预约</span></div>
+		<div class="button"><span>在线订票</span></div>
 	</div>
 	<div><img src="<?php echo get_template_directory_uri()?>/images/sidebar-news.png" width="100%" /></div>
 </div>
@@ -120,8 +120,8 @@ jQuery(function($) {
 	// 菜单切换
 	$('#alter-menu').hover(
 		function() {
-			$('#alter-menu').fadeOut(500);
-			$('#primary-menu').fadeIn(500);
+			$('#alter-menu').fadeOut(300);
+			$('#primary-menu').fadeIn(300);
 		},
 		function () {}
 	);
@@ -129,8 +129,8 @@ jQuery(function($) {
 	$('#primary-menu').hover(
 		function() {},
 		function() {
-			$('#alter-menu').fadeIn(500);
-			$('#primary-menu').fadeOut(500);
+			$('#alter-menu').fadeIn(300);
+			$('#primary-menu').fadeOut(300);
 		}
 	);
 });
