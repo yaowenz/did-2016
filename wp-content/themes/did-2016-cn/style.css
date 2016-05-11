@@ -7,186 +7,10 @@ Author URI:
 Description: 黑暗中对话（中国）- 2016
 Text Domain: did-2016
 */
+@import url("normalize.css");
 /**
  * Variables
  */
-/**
- * Normalize
- *
- */
-html {
-  background-color: #000;
-  color: #fff;
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  height: 100%;
-  font-family: '微软雅黑', 'Heiti'; }
-
-body {
-  margin: 0;
-  height: 100%;
-  overflow-x: hidden; }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block; }
-
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline; }
-
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-[hidden],
-template {
-  display: none; }
-
-a {
-  background-color: transparent; }
-
-p {
-  margin: 0px;
-  padding: 0px; }
-
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-b,
-strong {
-  font-weight: 700; }
-
-small {
-  font-size: 80%; }
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sup {
-  top: -0.5em; }
-
-sub {
-  bottom: -0.25em; }
-
-img {
-  border: 0; }
-
-svg:not(:root) {
-  overflow: hidden; }
-
-figure {
-  margin: 0; }
-
-hr {
-  box-sizing: content-box; }
-
-code,
-kbd,
-pre,
-samp {
-  font-size: 1em; }
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0; }
-
-select {
-  text-transform: none; }
-
-button {
-  overflow: visible; }
-
-button,
-input,
-select,
-textarea {
-  max-width: 100%; }
-
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer; }
-
-button[disabled],
-html input[disabled] {
-  cursor: default;
-  opacity: .5; }
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
-
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  margin-right: 0.4375em;
-  padding: 0; }
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
-
-input[type="search"] {
-  -webkit-appearance: textfield; }
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-fieldset {
-  border: 1px solid #d1d1d1;
-  margin: 0 0 1.75em;
-  min-width: inherit;
-  padding: 0.875em; }
-
-fieldset > :last-child {
-  margin-bottom: 0; }
-
-legend {
-  border: 0;
-  padding: 0; }
-
-textarea {
-  overflow: auto;
-  vertical-align: top; }
-
-optgroup {
-  font-weight: bold; }
-
-div:focus {
-  outline: none !important; }
-
-.clear {
-  float: none !important;
-  clear: both !important; }
-
 /**
  * Animations
  */
@@ -286,7 +110,8 @@ div:focus {
 
 #primary-menu .menu-buttons > .menu:hover {
   background-color: #323232;
-  cursor: pointer; }
+  cursor: pointer;
+  background-image: url("images/nav-buttons-active.png"); }
 
 #primary-menu .menu-buttons > .menu:hover .sub-menu {
   display: block !important;
@@ -294,22 +119,22 @@ div:focus {
           animation: fadeIn 500ms 1 alternate; }
 
 #primary-menu .menu-buttons > .menu.homepage {
-  background-position: -5px; }
+  background-position: 5px; }
 
 #primary-menu .menu-buttons > .menu.stadium {
-  background-position: -110px; }
+  background-position: -112px; }
 
 #primary-menu .menu-buttons > .menu.workshop {
-  background-position: -228px; }
+  background-position: -232px; }
 
 #primary-menu .menu-buttons > .menu.events {
-  background-position: -354px; }
+  background-position: -367px; }
 
 #primary-menu .menu-buttons > .menu.cooperation {
-  background-position: -485px; }
+  background-position: -505px; }
 
 #primary-menu .menu-buttons > .menu.about {
-  background-position: -608px; }
+  background-position: -633px; }
 
 #primary-menu .menu-buttons .sub-menu {
   padding: 20px 25px;
@@ -488,6 +313,9 @@ div:focus {
   height: 75px;
   width: 80px; }
 
+#topic-stadium .map .locator:hover, #topic-stadium .map .locator.active {
+  background-image: url("images/index-map-locator-active.png"); }
+
 #topic-stadium .map .locator.shanghai {
   top: 360px;
   right: 150px;
@@ -545,8 +373,8 @@ div:focus {
           transition-duration: 0.5s; }
 
 #topic-workshop .products-wrapper.hover-workshop {
-  -webkit-transform: translate(-30px, 0px);
-          transform: translate(-30px, 0px); }
+  -webkit-transform: translate(-20px, 0px);
+          transform: translate(-20px, 0px); }
 
 #topic-workshop .products {
   position: relative;
@@ -601,7 +429,8 @@ div:focus {
   font-size: 14px; }
 
 #topic-workshop .product .text p {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  line-height: 1.6; }
 
 #topic-workshop .product > div {
   border: 1px solid #424242; }
@@ -681,7 +510,8 @@ div:focus {
 
 #topic-events .row .cell.text p {
   margin-top: 40px;
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 1.6; }
 
 #topic-events .row .cell:hover {
   cursor: pointer; }
@@ -742,7 +572,8 @@ div:focus {
 #topic-mission .mission p {
   margin-top: 30px;
   font-size: 14px;
-  color: #eee; }
+  color: #eee;
+  line-height: 1.6; }
 
 #topic-mission .mission img {
   width: 180px; }
@@ -806,3 +637,17 @@ div:focus {
   position: absolute;
   top: 0px;
   left: -70px; }
+
+#topic-partners .brand-logos {
+  width: 1000px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px 10px;
+  border-radius: 5px; }
+
+#topic-partners .brand-logos td {
+  text-align: center;
+  width: 20%; }
+
+#topic-partners .brand-logos td img {
+  width: 80%; }

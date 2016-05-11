@@ -17,13 +17,14 @@
 	<!-- 体验馆 -->
 	<div id="topic-stadium" class="topic">
 		<div class="map">
-			<div class="locator shanghai" data-tab="shanghai"></div>
+			<!-- <div class="locator shanghai" data-tab="shanghai"></div> -->
 			<!-- <div class="locator beijing" data-tab="beijing"></div> -->
-			<div class="locator shenzhen" data-tab="shenzhen"></div>
+			<div class="locator shenzhen active" data-tab="shenzhen"></div>
 			<div class="locator chengdu" data-tab="chengdu"></div>
 		</div>
 		<!-- 上海 -->
-		<div class="introduction shanghai active" style="display:block">
+		<!-- 
+		<div class="introduction shanghai" style="display:block">
 			<div class="image">
 				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" />
 			</div>
@@ -37,6 +38,7 @@
 				<div class="reserve-button">在线订票</div>
 			</div>
 		</div>	
+		 -->
 		<!-- 深圳 -->
 		<div class="introduction shenzhen active" style="display:block">
 			<div class="image">
@@ -44,11 +46,12 @@
 			</div>
 			<div class="text">
 				<h2>深圳体验馆</h2>
-				<p class="text">“黑暗中对话”体验发生在完全黑暗的环境中。期待热爱自由、冒险的你加入这段黑暗旅程。75分钟的旅程中，一位“导赏员”将带领不超过八人的团队，以一个全新的角度欣赏这个世界。听觉、嗅觉、味觉、触觉，黑暗中这些熟悉的感官将会代替视觉，帮助您在黑暗中“看见”更多，准备好重新发掘世界的不同了吗？快来体验吧，在这里黑暗将带给你们从未有过的惊喜！</p>
+				<p class="text">作为华南区首家 “黑暗中对话” 体验馆，除了 “黑暗之旅” 与 “企业工作坊” 项目以外，还创新地推出了黑暗约会、黑暗酒会、黑暗中身体作画、黑暗美食品鉴、隐形任务等系列活动，因此也被称为深圳「黑店」。在不同行业中也能看见 “黑店” 的影子，与WWF “地球一小时” 联合推出「黑暗大使」活动，携手中国（深圳）女子马拉松推出「黑暗奔跑」…… </p>
 				<p class="address">
-					·地址：成都市锦江区滨江东路232号（靠近太古里）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					·预约电话：（+86）28-62103889
+					·地址：福田深南大道6017号都市阳光名苑群楼2楼。（车公庙C出口）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					·预约电话：0755-88917887
 				</p>
+				<p class="address" style="margin-top:5px">·营业时间：周二至周日（周一闭馆）10：00~20：30。</p>		
 				<div class="reserve-button">在线订票</div>
 			</div>
 		</div>		
@@ -62,8 +65,9 @@
 				<p class="text">“黑暗中对话”体验发生在完全黑暗的环境中。期待热爱自由、冒险的你加入这段黑暗旅程。75分钟的旅程中，一位“导赏员”将带领不超过八人的团队，以一个全新的角度欣赏这个世界。听觉、嗅觉、味觉、触觉，黑暗中这些熟悉的感官将会代替视觉，帮助您在黑暗中“看见”更多，准备好重新发掘世界的不同了吗？快来体验吧，在这里黑暗将带给你们从未有过的惊喜！</p>
 				<p class="address">
 					·地址：成都市锦江区滨江东路232号（靠近太古里）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					·预约电话：（+86）28-62103889
+					·预约电话：028-62103889
 				</p>
+				<p class="address" style="margin-top:5px">·营业时间：周二至周四 10：00~18：00，周五至周日 10：00~20：00，   周一闭馆。</p>		
 				<div class="reserve-button">在线订票</div>
 			</div>
 		</div>	
@@ -73,7 +77,7 @@
 		<div class="products-wrapper center-wrapper">
 			<div class="products">
 				<!-- Workshop -->
-				<div class="product corp wrapper">
+				<div class="product corp wrapper no-offset">
 					<div>
 						<div class="title">
 							<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-corp.jpg" width="100%" /></div>
@@ -82,8 +86,9 @@
 							<h2 class="english">Workshop</h2>
 						</div>
 						<div class="text slience">
-							<p>为了拓展黑暗中对话（中国）的辐射面，更好地实现DSE的初衷，“无声中对话”也将在进入中国。作为DSE开发出的第二项对话服务项目，“无声中对话”把着眼点放在了听语障者身上。基于这个平台，听语障者能够发挥他们的各种才能专长，获得不同的就业机会。同时，和健听者公开交流，从而减少偏见，撇开他们的固有思维以及规避心态。</p>
-							<p>“无声中对话”将雇聘听语障者为全职或兼职的引导员或教练，同样用“体验馆”和“企业工作坊”两种方式，为参与者展现在寂静中“听”的艺术。“体验馆”中，体验者将在全聋或听语障引导员的带领下穿越过完全隔音的场馆。寂静将会让参与者们反思他们的交流方式，甚至是自己生活中的点点滴滴。</p>
+							<p>“黑暗中对话”在完全黑暗的环境中进行，借此激发对人性多元化的崭新体验。这是极少数可以在短时间内改变参与者行为模式的体验式培训之一。参与者与我们的视障培训师之间进行强弱角色的转变，促使其必须适应突如其来的短暂“失明”，强迫自己谦卑、放慢步调、关注内心，真实地审视自己的核心价值观和潜力。</p>
+							<p>通过“黑暗中对话”工作坊的培训，员工能够在领导力、协作能力、沟通能力、创新能力这些方面获得显著的提升，特别感受到适应变革的需求，同时也带给受训员工独特的人生体验帮助提升员工的归属感，激发员工的生产力。</p>
+							<span class="reserve-button">立即预约</span>
 						</div>
 						<div class="clear"></div>
 					</div>
@@ -95,12 +100,11 @@
 							<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-slience.jpg" width="100%" /></div>
 							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-slience.jpg" width="100%" /></div>			
 							<h2>无声中对话</h2>
-							<h2 class="english">Slience In The Dark</h2>
+							<h2 class="english">Dialogue in the Slience</h2>
 						</div>
 						<div class="text slience">
 							<p><img src="<?php echo get_template_directory_uri()?>/images/slience-workshop-logo.png" width="150" />
-							<p>作为DSE开发出的第二项对话服务项目，“无声中对话”把着眼点放在了听语障者身上。基于这个平台，听语障者能够发挥他们的各种才能专长，获得不同的就业机会。同时，和健听者公开交流，从而减少偏见，撇开他们的固有思维以及规避心态。</p>
-							<p>“无声中对话”将雇聘听语障者为全职或兼职的引导员或教练，同样用“体验馆”和“企业工作坊”两种方式，为参与者展现在寂静中“听”的艺术。</p>
+							<p>对话社会企业的第二个项目无声中对话也已有了成熟的体验馆与工作坊项目，在听障培训师的带领下参与者们进入一个无声的世界，参与者们需要迅速适应这一变化，摆脱日常工作和社交的束缚，发觉自己非语言表达方面的技能，进一步提升肢体和多方沟通能力。特别适合需要与客户直接接触的服务性行业。</p>
 							<span class="reserve-button">立即预约</span>
 						</div>
 						<div class="clear"></div>
@@ -116,8 +120,8 @@
 							<h2 class="english">Education</h2>
 						</div>
 						<div class="text slience">
-							<p>为了拓展黑暗中对话（中国）的辐射面，更好地实现DSE的初衷，“无声中对话”也将在进入中国。作为DSE开发出的第二项对话服务项目，“无声中对话”把着眼点放在了听语障者身上。基于这个平台，听语障者能够发挥他们的各种才能专长，获得不同的就业机会。同时，和健听者公开交流，从而减少偏见，撇开他们的固有思维以及规避心态。</p>
-							<p>“无声中对话”将雇聘听语障者为全职或兼职的引导员或教练，同样用“体验馆”和“企业工作坊”两种方式，为参与者展现在寂静中“听”的艺术。“体验馆”中，体验者将在全聋或听语障引导员的带领下穿越过完全隔音的场馆。寂静将会让参与者们反思他们的交流方式，甚至是自己生活中的点点滴滴。</p>
+							<p>黑暗中对话”生命教育工作坊在完全黑暗的环境中进行，通过专业视障教练的引导来协助学生发现自己的生活意义、发展正确的态度及增进良好人际关系及彼此相互了解的方法︰透过学生们当下参与活动应对挑战，发现自己的感受，从互动与回馈中，培养学生的同理心，引导学生自觉关注内心。之后，专业的分享师将引导学生们就自己和团队在黑房里的表现发表感受，或对困扰问题加以讨论，从而增进相互了解、回馈并提出解决问题的方法。企业可以通过认养的方式举办学生工作坊和公益工作坊。</p>
+							<span class="reserve-button">立即预约</span>
 						</div>
 						<div class="clear"></div>
 					</div>
@@ -235,6 +239,24 @@
 				<div class="clear"></div>
 			</div>
 			<h2>客户名录</h2>
+			<div class="brand-logos">
+				<table border="0" width="100%">
+					<tr height="70" valign="middle">
+						<td width="20%"><img src="<?php echo get_template_directory_uri()?>/images/logos/boc.png" /></td>
+						<td width="20%"></td>
+						<td width="20%"></td>
+						<td width="20%"></td>
+						<td width="20%"></td>					
+					<tr/>
+					<tr height="70" valign="middle">
+						<td width="20%"><img src="<?php echo get_template_directory_uri()?>/images/logos/hsbc.png" /></td>
+						<td width="20%"></td>
+						<td width="20%"></td>
+						<td width="20%"></td>
+						<td width="20%"></td>					
+					<tr/>
+				</table>
+			</div>
 		</div>
 		<div class="copyright">
 			<p>Copyright黑暗中对话（中国）版权所有 &nbsp;&nbsp;|&nbsp;&nbsp;沪ICP备12015459&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dialogue-in-the-dark.org.cn/contactus">联系我们</a></p>
@@ -346,7 +368,9 @@ jQuery(function($) {
 	$('#topic-workshop .product').hover(
 		function() {			
 			$('.products').css('width', '1310px')
-			$('.products-wrapper').addClass('hover-workshop');
+			if(!$(this).hasClass('no-offset')) {
+				$('.products-wrapper').addClass('hover-workshop');
+			}
 		},
 		function() {
 			$('.products').css('width', '990px')
