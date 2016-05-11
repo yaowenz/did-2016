@@ -268,8 +268,9 @@ Text Domain: did-2016
 #topic-home .propaganda {
   position: absolute;
   z-index: 2001;
-  left: 40%;
-  top: 30%; }
+  left: 45%;
+  top: 30%;
+  width: 50%; }
 
 #topic-home .propaganda > div {
   -webkit-animation: fadeIn 1s 1;

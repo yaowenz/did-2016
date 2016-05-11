@@ -4,7 +4,7 @@
 	<div id="topic-home" class="topic">
 		<!-- Text -->
 		<div class="propaganda">
-			<div class="line-1"><img src="<?php echo get_template_directory_uri()?>/images/index-1-text.png" /></div>
+			<div class="line-1"><img src="<?php echo get_template_directory_uri()?>/images/index-1-text.png" width="100%" /></div>
 			<div class="line-2"><img src="<?php echo get_template_directory_uri()?>/images/index-2-text.png" /></div>	
 		</div>
 		<!-- Sliders -->		
