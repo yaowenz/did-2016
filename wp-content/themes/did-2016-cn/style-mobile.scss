@@ -7,14 +7,15 @@ Description: 黑暗中对话（中国）- 2016
 Text Domain: did-2016
 */
 
-@import url('normalize.css');
-
 /**
  * Variables
  */
 
 $orange:#BB9100;
 
+html, body {overflow-x:hidden}
+
+h1 {font-size:24px}
 
 /**
  * Animations
@@ -38,11 +39,10 @@ $orange:#BB9100;
 /**
  * Header
  */
-#nav {z-index:2005;height:160px;position:fixed;top:0px;left:0px}
-#nav #logo-orange, #nav #primary-menu .logo {position:absolute;left:5%}
-#primary-menu .logo {top:30px}
+#alter-menu {display:none}
+#primary-menu {display:none}
 
-#nav #logo-orange img {width:200px}
+#nav #logo-orange img {width:100px;position:fixed;left:30px;top:0px;z-index:2005}
 
 #contact-header {
 	position:fixed;z-index:2050;right:60px;top:15px;line-height:30px;color:white;font-size:14px
@@ -108,19 +108,19 @@ $orange:#BB9100;
  * Pages
  */
 .reserve-button {color:$orange;border:1px solid $orange;padding:5px 15px;font-size:16px;}
-#topics .center-wrapper {position:absolute;top:30%;width:100%;}
+#topics .center-wrapper {position:absolute;top:20%;width:100%;height:80%}
 #arrow-down {box-sizing:border-box;text-align:center;bottom:30px;position:fixed;margin:0px 40%;width:20%;animation:bling 1s infinite alternate;z-index:2001}
 #arrow-down > img {cursor:pointer}
 
 #topics .topic {height:100%;width:100%;position:relative}
-#topic-workshop, #topic-events, #topic-mission, #topic-partners {background-size:100% auto;background-image:url('images/index-bg-common.jpg');background-position:center;background-repeat:no-repeat}
+#topic-workshop, #topic-events, #topic-mission, #topic-partners {background-size:auto 100%;background-image:url('images/index-bg-common.jpg');background-position:center;background-repeat:no-repeat}
 
 #topic-home, #topic-home .sliders, #topic-home .sliders .slider, #topic-home .sliders > div {height:100%}
 #topic-home .sliders .slick-track {height:100%}
 #topic-home {
-	.propaganda { position:absolute;z-index:2001;left:45%;top:30%;width:50% }
+	.propaganda { position:absolute;z-index:2001;left:20%;top:30%;width:75% }
 	.propaganda > div {animation: fadeIn 1s 1;display:none}
-	.propaganda .line-2 { margin-top:30px;}
+	.propaganda .line-2 { margin-top:5px;margin-left:12%}
 	
 }
 #topic-home .sliders .slider {
@@ -245,14 +245,16 @@ $orange:#BB9100;
 #topic-mission {
 	h1, h2 {text-align:center;font-weight:normal;}
 	h1 {margin-top:0px}
-	h2 {color:#ccc;font-size:18px;margin-bottom:50px}
-	.missions {width:990px;margin:auto}
+	h2 {color:#ccc;font-size:14px;margin-bottom:50px;width:80%;margin:0px 10%}
+	.missions {width:100%;margin:auto;positoin:relative}
 	.mission {
-		& {text-align:center;width:300px;padding:15px;float:left}
-		p {margin-top:30px;font-size:14px;color:#eee;line-height:1.6}
-		img {width:180px}
-	
+		& {text-align:center;width:40%;margin:auto;position:absolute}
+		p {margin-top:5px;font-size:12px;color:#eee;line-height:1.6}
+		img {width:80%;margin-top:15px}
 	}
+	.mission-1 {top:25%;left:5%}
+	.mission-2 {top:18%;right:5%}
+	.mission-3 {top:50%;right:18%}
 }
 
 #topic-partners {
