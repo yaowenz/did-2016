@@ -299,8 +299,17 @@ jQuery(function($) {
 				
 				setTimeout(function() {
 					$('#topic-partners .comment-3 img').fadeIn(500);
-				}, 800);
-									
+				}, 800);			
+			}
+			// 我们的使命
+			if(index == 5) {				
+				$('#topic-mission .mission-1').fadeIn(300);
+				setTimeout(function() {
+					$('#topic-mission .mission-3').fadeIn(300);				
+				}, 1000);				
+				setTimeout(function() {
+					$('#topic-mission .mission-2').fadeIn(300);
+				}, 500);	
 			}
 		}
 	});

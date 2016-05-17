@@ -574,7 +574,8 @@ h1 {
   text-align: center;
   width: 40%;
   margin: auto;
-  position: absolute; }
+  position: absolute;
+  display: none; }
 
 #topic-mission .mission p {
   margin-top: 5px;
@@ -595,7 +596,7 @@ h1 {
   right: 5%; }
 
 #topic-mission .mission-3 {
-  top: 50%;
+  top: 52%;
   right: 18%; }
 
 #topic-partners .comments {
