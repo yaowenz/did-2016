@@ -419,7 +419,7 @@ h1 {
 
 #topic-events .row .cell, #topic-events .row .cell .dimmer {
   width: 50%;
-  height: 140px; }
+  height: 135px; }
 
 #topic-events .row .cell {
   float: left;
@@ -587,5 +587,5 @@ h1 {
   padding: 5px 0px; }
 
 #topic-partners .brand-logos td img {
-  max-height: 35px;
+  max-height: 30px;
   max-width: 70%; }

@@ -181,7 +181,7 @@ h1 {font-size:24px}
 	.events-wrapper {width:90%;margin:auto}
 	.row {
 		& {width:100%}
-		.cell, .cell .dimmer {width:50%;height:140px;}
+		.cell, .cell .dimmer {width:50%;height:135px;}
 		.cell {
 			&  {float:left;position:relative;background-color:#616161;box-sizing:border-box}
 			&.pic img {width:100%;height:100%}
@@ -236,6 +236,6 @@ h1 {font-size:24px}
 	.brand-logos {width:90%;margin:auto;background:rgba(255,255,255,0.8);border-radius:5px}
 	.brand-logos {
 		td {text-align:center;width:20%;padding:5px 0px}
-		td img {max-height:35px;max-width:70%}
+		td img {max-height:30px;max-width:70%}
 	}
 }
