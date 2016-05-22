@@ -278,8 +278,8 @@ h1 {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-image: url("images/index-map-locator.png");
-  height: 75px;
-  width: 80px; }
+  height: 56px;
+  width: 60px; }
 
 #topic-stadium .map .locator:hover, #topic-stadium .map .locator.active {
   background-image: url("images/index-map-locator-active.png"); }
@@ -290,14 +290,14 @@ h1 {
   background-position: -163px 0px; }
 
 #topic-stadium .map .locator.shenzhen {
-  top: 70%;
-  right: 40%;
-  background-position: -240px 0px; }
+  top: 75%;
+  right: 45%;
+  background-position: -176px 0px; }
 
 #topic-stadium .map .locator.chengdu {
   top: 50%;
   left: 15%;
-  background-position: -85px 0px; }
+  background-position: -62px 0px; }
 
 #topic-stadium .map .locator.beijing {
   top: 230px;

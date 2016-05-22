@@ -120,12 +120,12 @@ h1 {font-size:24px}
 	h1 {text-align:right;font-size:20px;position:absolute;right:5%;top:100px;color:#eee;z-index:10;width:100%;font-weight:normal;display:none}
 	.map {display:none;background-image:url('images/index-map.png');min-height:300px;height:55%;background-repeat:no-repeat;;width:100%;position:absolute;top:60px;left:0px;background-size:contain}
 	.map {
-		.locator {cursor:pointer;position:absolute;background-size:auto 100%;background-repeat:no-repeat;background-image:url('images/index-map-locator.png');height:75px;width:80px}
+		.locator {cursor:pointer;position:absolute;background-size:auto 100%;background-repeat:no-repeat;background-image:url('images/index-map-locator.png');height:56px;width:60px}
 		.locator {
 			&:hover, &.active {background-image:url('images/index-map-locator-active.png')}
 			&.shanghai {top:360px;right:150px;background-position:-163px 0px}
-			&.shenzhen {top:70%;right:40%;background-position:-240px 0px}
-			&.chengdu {top:50%;left:15%;background-position:-85px 0px}
+			&.shenzhen {top:75%;right:45%;background-position:-176px 0px}
+			&.chengdu {top:50%;left:15%;background-position:-62px 0px}
 			&.beijing {top:230px;right:230px;background-position:-8px 0px}
 			
 		}
