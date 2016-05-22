@@ -252,6 +252,11 @@ jQuery(function($) {
 		}
 	});
 
+
+	$('.topic').swipeup(function() {
+		$("#topics").moveDown();
+	});
+
 	// 体验馆切换
 	$('#topic-stadium .locator').tap(function() {	
 		var locator = this;
