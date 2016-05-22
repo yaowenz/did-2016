@@ -195,7 +195,7 @@
 				<div class="clear"></div>
 				<div class="contact">
 					<div class="hint">联系我们，定制更多活动</div>
-					<div class="reserve-button">联系合作</div>
+					<div class="reserve-button"><a href="<?php echo site_url('cooperation')?>">联系合作</a></div>
 				</div>
 			</div>
 		</div>
@@ -246,13 +246,13 @@
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ge.png" height="45" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ceibs.png" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ikea.png" /></td>					
-					<tr/>
+					</tr>
 					<tr valign="middle">
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/hsbc.png" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/dbs.png" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/bi.png" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/aia.png" /></td>					
-					<tr/>
+					</tr>
 				</table>
 			</div>
 		</div>
