@@ -11,7 +11,7 @@ Text Domain: did-2016
  * Variables
  */
 html, body {
-  overflow-x: hidden; }
+  overflow: hidden; }
 
 /**
  * Animations
