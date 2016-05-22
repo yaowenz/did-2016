@@ -3,77 +3,84 @@
 	<!-- Standalone logo -->
 	<div id="alter-menu">
 		<div id="logo-orange">	
-			<img src="<?php echo get_template_directory_uri()?>/images/logo-orange.png" /> 
+			<a href="<?php echo site_url()?>"><img src="<?php echo get_template_directory_uri()?>/images/logo-orange.png" /></a> 
 		</div>
 	</div>	
 	<!-- Nav -->
 	<div id="primary-menu" style="display:none">
 		<div class="logo">
-			<img src="<?php echo get_template_directory_uri()?>/images/logo-transparent.png" /> 
+			<a href="<?php echo site_url()?>"><img src="<?php echo get_template_directory_uri()?>/images/logo-transparent.png" /></a> 
 		</div>
 		<div class="menu-buttons">
 			<div class="homepage menu">
-			
+				<a href="<?php echo site_url()?>">&nbsp;</a>
 			</div>
 			<div class="stadium menu">
+				<a href="<?php echo site_url('stadium')?>">&nbsp;</a>
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li>黑暗中对话体验馆</li>
+							<li><a href="<?php echo site_url('stadium')?>">黑暗中对话体验馆</a></li>
 							<li>在线购票</li>							
 						</ul>
-						<p class="brief">体验馆介绍</p>					
+						<p class="brief">关闭您的视觉，颠覆您的感官</p>					
 					</div>
 					<div class="image">
-						<img src="<?php echo get_template_directory_uri()?>/images/menu-stadium-brief.jpg" /> 
+						<img src="<?php echo get_template_directory_uri()?>/images/index-menu-thumb-stadium.jpg" /> 
 					</div>
 				</div>
 			</div>
 			<div class="workshop menu">
+				<a href="<?php echo site_url('workshop')?>">&nbsp;</a>
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li>黑暗中对话工作坊</li>
-							<li>无声中对话工作坊</li>
-							<li>教育工作坊</li>	
-							<li>日程表</li>													
+							<li><a href="<?php echo site_url('workshop')?>">黑暗中对话工作坊</a></li>
+							<li><a href="<?php echo site_url('workshop-slience')?>">无声中对话工作坊</a></li>
+							<li><a href="<?php echo site_url('workshop-edu')?>">教育工作坊</a></li>	
+							<!-- <li>日程表</li> -->													
 						</ul>
-						<p class="brief">工作坊介绍</p>					
+						<p class="brief">针对企业，政府机构和组织开发，是极少数可在短时间内改变参与者行为模式的体验式培训之一</p>					
 					</div>
 					<div class="image">
-						<img src="<?php echo get_template_directory_uri()?>/images/menu-stadium-brief.jpg" /> 
+						<img src="<?php echo get_template_directory_uri()?>/images/index-menu-thumb-workshop.jpg" /> 
 					</div>
 				</div>
 			</div>
 			<!-- 特别活动 -->
-			<div class="events menu"></div>
+			<div class="events menu">
+				<a href="<?php echo site_url('special-events')?>">&nbsp;</a>
+			</div>
 			<!-- 品牌合作 -->
 			<div class="cooperation menu">
+				<a href="<?php echo site_url('cooperation')?>">&nbsp;</a>
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li>合作方式及案例</li>
+							<li><a href="<?php echo site_url('cooperation')?>">合作方式及案例</a></li>
 						</ul>
-						<p class="brief">介绍</p>					
+						<p class="brief">联系我们，定制更多活动</p>					
 					</div>
 					<div class="image">
-						<img src="<?php echo get_template_directory_uri()?>/images/menu-stadium-brief.jpg" /> 
+						<img src="<?php echo get_template_directory_uri()?>/images/index-menu-thumb-coop.jpg" /> 
 					</div>
 				</div>
 			</div>
+			<!-- 关于我们 -->
 			<div class="about menu">
+				<a href="<?php echo site_url('about')?>">&nbsp;</a>
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li>品牌故事</li>						
-							<li>联系我们</li>							
-							<li>加入我们</li>
-							<li>FAQ</li>							
+							<li><a href="<?php echo site_url('about')?>">品牌故事</a></li>						
+							<li><a href="<?php echo site_url('contact')?>">联系我们</a></li>							
+							<li><a href="<?php echo site_url('join')?>">加入我们</a></li>
+							<!-- <li>FAQ</li> -->							
 						</ul>
-						<p class="brief">介绍</p>					
+						<p class="brief"></p>					
 					</div>
 					<div class="image">
-						<img src="<?php echo get_template_directory_uri()?>/images/menu-stadium-brief.jpg" /> 
+						<img src="<?php echo get_template_directory_uri()?>/images/index-menu-thumb-about.jpg" /> 
 					</div>
 				</div>
 			</div>
@@ -100,13 +107,15 @@
 	<div class="tool-ticket tool">
 		<div class="button"><span>在线订票</span></div>
 	</div>
-	<div><img src="<?php echo get_template_directory_uri()?>/images/sidebar-news.png" width="100%" /></div>
+	<div class="tool-news"><img src="<?php echo get_template_directory_uri()?>/images/sidebar-news.png" width="100%" /></div>
 </div>
 <script type="text/javascript">
+var primaryMenuShow = false;
 jQuery(function($) {
 	// 菜单切换
 	$('#alter-menu').hover(
 		function() {
+			primaryMenuShow = true;
 			$('#alter-menu').fadeOut(300);
 			$('#primary-menu').fadeIn(300);
 		},
@@ -114,10 +123,18 @@ jQuery(function($) {
 	);
 	
 	$('#primary-menu').hover(
-		function() {},
 		function() {
-			$('#alter-menu').fadeIn(300);
-			$('#primary-menu').fadeOut(300);
+			primaryMenuShow = true;
+		},
+		function() {
+			primaryMenuShow = false;
+			setTimeout(function() {
+				if(!primaryMenuShow) {
+					$('#alter-menu').fadeIn(300);
+					$('#primary-menu').fadeOut(300);
+				}
+			}, 500);
+			
 		}
 	);
 });

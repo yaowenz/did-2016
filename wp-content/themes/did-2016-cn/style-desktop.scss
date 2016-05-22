@@ -12,6 +12,7 @@ Text Domain: did-2016
  */
 
 $orange:#BB9100;
+$nav-height:150px;
 
 
 /**
@@ -32,54 +33,70 @@ $orange:#BB9100;
   100% { opacity: 1 }
 }
 
+p {line-height:1.6}
+.orange {color:$orange}
 
 /**
  * Header
  */
-#nav {z-index:2005;height:160px;position:fixed;top:0px;left:0px}
+#nav {z-index:2005;height:$nav-height;position:fixed;top:0px;left:0px}
 #nav #logo-orange, #nav #primary-menu .logo {position:absolute;left:5%}
 #primary-menu .logo {top:30px}
+#primary-menu .logo > img {width:190px}
+#primary-menu a {text-decoration:none}
 
-#nav #logo-orange img {width:200px}
+#nav #logo-orange img {width:180px}
 
 #contact-header {
-	position:fixed;z-index:2050;right:60px;top:15px;line-height:30px;color:white;font-size:14px
+	position:fixed;z-index:2050;right:60px;top:15px;line-height:30px;color:white;font-size:14px;
+    background: rgba(0,0,0,0.6);
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+/**
+ * Footer
+ */
+.copyright {
+	& {font-size:12px;color:#ccc;text-align:right}
+	p {line-height:1.8}	
 }
 
 /**
  * Primary Menu
  */
 #primary-menu, #alter-menu {
-	& {height:160px;position:fixed;top:0px;left:0px;width:100%;z-index:1}
+	& {height:$nav-height;position:fixed;top:0px;left:0px;width:100%;z-index:1}
 }
 #primary-menu {
-	& {background-color:rgba(0,0,0,0.2)}
+	& {background-color:rgba(0,0,0,0.8)}
 	.menu-buttons {
 		& {position:absolute;right:50px;bottom:0px}
 		> .menu {
-			& {padding:5px 0px;border-radius:5px 5px 0px 0px;display:inline-block;background-size:auto 70px;background-image:url('images/nav-buttons.png'); background-repeat:no-repeat;height:70px;width:80px;margin-right:10px}
-			&:hover {background-color:#323232;cursor:pointer;background-image:url('images/nav-buttons-active.png')}			
+			> a {display:inline-block;position:absolute;width:70px;height:60px}
+			& {padding:5px 5px;border-radius:5px 5px 0px 0px;display:inline-block;background-size:auto 60px;background-image:url('images/nav-buttons-60.png'); background-repeat:no-repeat;height:60px;width:70px;margin-right:15px}
+			&:hover {background-color:#323232;cursor:pointer;background-image:url('images/nav-buttons-active-60.png')}			
 			&:hover .sub-menu {display:block!important;animation: fadeIn 500ms 1 alternate;}
-			&.homepage {background-position:5px}
-			&.stadium {background-position: -112px}			
-			&.workshop {background-position: -232px}
-			&.events {background-position: -367px}			
-			&.cooperation {background-position: -505px}
-			&.about {background-position: -633px}		
+			&.homepage {background-position:10px}
+			&.stadium {background-position: -90px}			
+			&.workshop {background-position: -195px}
+			&.events {background-position: -310px}			
+			&.cooperation {background-position: -427px}
+			&.about {background-position: -540px}		
 		}		
 						
 		.sub-menu {
-			& {padding:20px 25px;border-radius:10px;width:680px;top:156px;position:fixed;right:0px;background:#323232;z-index:2000;display:none}
+			& {padding:20px 25px;border-radius:10px;width:680px;top:146px;position:fixed;right:0px;background:#323232;z-index:2000;display:none}
 			> div.list {
 				& {float:left}
 				ul {
 					& {font-size:16px;margin:0px;padding-left:20px}
 					li {line-height:2.0}
-					li:hover {color:#BB9100;cursor:pointer}
+					li:hover, a:hover {color:#BB9100;cursor:pointer}
 				}				
 			}
 			
-			p.brief {font-size:12px;color:#ccc;margin-top:50px}
+			p.brief {font-size:13px;color:#ccc;margin-top:40px;display:inline-block;max-width:280px;}
 									
 			> div.image {float:right}
 		}
@@ -99,7 +116,7 @@ $orange:#BB9100;
 	> div.tool-wx .button {background-image:url('images/sidebar-wx.png');background-color:#74A291}
 	> div.tool-ticket .button {background-image:url('images/sidebar-ticket.png');background-color:#C46780}
 	> div.tool-corp .button {background-image:url('images/sidebar-corp.png');background-color:#476A92}
-		
+	> div.tool-news {display:none}
 }
 
 /**
@@ -107,10 +124,14 @@ $orange:#BB9100;
  */
 .reserve-button {color:$orange;border:1px solid $orange;padding:5px 15px;font-size:16px;}
 #topics .center-wrapper {position:absolute;top:30%;width:100%;}
-#arrow-down {box-sizing:border-box;text-align:center;bottom:30px;position:fixed;margin:0px 40%;width:20%;animation:bling 1s infinite alternate;z-index:2001}
+#arrow-down {box-sizing:border-box;text-align:center;bottom:15px;position:fixed;margin:0px 40%;width:20%;animation:bling 1s infinite alternate;z-index:2001}
 #arrow-down > img {cursor:pointer}
 
-#topics .topic {height:100%;width:100%;position:relative}
+#topics .topic {
+	& {height:100%;width:100%;position:relative}
+	a {color:$orange;}
+	a:hover {color:white}
+}
 #topic-workshop, #topic-events, #topic-mission, #topic-partners {background-size:100% auto;background-image:url('images/index-bg-common.jpg');background-position:center;background-repeat:no-repeat}
 
 #topic-home, #topic-home .sliders, #topic-home .sliders .slider, #topic-home .sliders > div {height:100%}
@@ -143,15 +164,15 @@ $orange:#BB9100;
 			
 		}
 	}
-	.introduction {position:absolute;left:50%;top:180px;width:600px;display:none}	
+	.introduction {position:absolute;left:50%;top:165px;width:580px;display:none}	
 	.introduction {
-		.image {border:1px solid #424242;height:319px}
+		.image {border:1px solid #424242;height:309px}
 		&.active {}
-		.reserve-button {position:absolute;top:345px;right:0px;cursor:pointer}
+		.reserve-button {position:absolute;top:330px;right:0px;cursor:pointer}
 		.reserve-button:hover {color:#eee}
 		h2 {color:$orange}
 		p {line-height:1.5;font-size:14px}
-		p.address {color:#999;font-size:13px;margin-top:20px}
+		p.address {color:#999;font-size:13px;margin-top:10px}
 	}
 }
 
@@ -161,14 +182,13 @@ $orange:#BB9100;
 		&.hover-workshop {transform:translate(-20px,0px)}
 	}
 	.products {
-		position:relative;width:990px;margin:auto
+		position:relative;width:960px;margin:auto
 	}
 	
 	.product {
 		& {width:300px;height:420px;float:left;margin-right:25px;position:relative}
 		> div {width:300px;transition:width 0.3s;height:417px;overflow:hidden;}
-		.title {width:300px}
-		.title {position:relative;text-align:center;float:left}		
+		.title {width:300px;position:relative;text-align:center;float:left}		
 		h2 {font-size:20px;margin:10px 0px 0px 0px;padding:0px}
 		h2.english {font-size:12px;margin:5px 0px 0px 0px;padding:0px 0px 10px 0px}
 		.dimmer {position:absolute;top:0px;left:0px;width:100%;height:100%}
@@ -183,6 +203,8 @@ $orange:#BB9100;
 		.reserve-button {display:inline-block;text-indent:0px;position:absolute;right:15px;margin-top:15px}
 		
 	}
+	
+	.product.edu {margin-right:0px}
 	
 	.product:hover {
 		& {width:630px}
@@ -254,8 +276,8 @@ $orange:#BB9100;
 }
 
 #topic-partners {
-	.comments {width:1100px;margin:auto;height:286px}
-	.comments img {width:85%;display:none}
+	.comments {width:1100px;margin:auto;height:250px}
+	.comments img {width:75%;display:none}
 	.comments > div {float:left;text-align:center;position:relative;min-height:1px}	
 	.comment-1 {width:34%}
 	.comment-2 {width:19%}
@@ -263,14 +285,112 @@ $orange:#BB9100;
 	.comment-3 {width:47%}
 	a {color:#ccc;text-decoration:none}
 	a:hover {text-decoration:underline}
-	h2 {text-align:center;font-weight:bold;color:#ccc;font-size:20px;margin-top:30px}
-	.copyright {position:absolute;bottom:15px;right:15px;font-size:12px;color:#ccc;text-align:right;z-index:2005}
-	.copyright p {line-height:1.8}
-	.dse-logo {width: 50px;position:absolute;top:0px;left:-70px}
-	
-	.brand-logos {width:1000px;margin:auto;background:rgba(255,255,255,0.8);padding:15px 10px;border-radius:5px}
+	h2 {text-align:center;font-weight:bold;color:#ccc;font-size:20px;margin-top:5px}
+	.copyright {position:absolute;bottom:15px;right:15px;z-index:2005}
+	.copyright .dse-logo {width: 50px;position:absolute;top:0px;left:-70px}
+	.brand-logos {width:1000px;margin:auto;background:rgba(255,255,255,0.5);padding:10px 10px;border-radius:5px}
 	.brand-logos {
-		td {text-align:center;width:20%}
-		td img {width:80%}
+		td {text-align:center;width:25%;height:55px}
+		td img {max-height:45px;max-width:155px}
+	}	
+}
+
+/**
+ * Content Pages
+ */
+img.slogan {width:230px;left:5%;position:fixed;top:200px}
+.content-page {min-height:100%;height:auto;background-image:url('images/content-bg.jpg');background-repeat:no-repeat;background-position:left top;background-attachment:fixed}
+
+#secondary-nav {position:fixed;left:5%;top:300px}
+#secondary-nav {
+	ul {margin:0px;padding:0px;list-style:none}
+	ul {
+		li {line-height:35px}
+		li a {color:#b6b6b6;font-size:16px}
+		li a.active, li a:hover {color:white}
+		li a.active:after {content:">";margin-left:15px;font-family:Tahoma}
 	}
+}
+.content.copyright {pwidth:100%;text-align:center;margin-top:50px;margin-bottom:20px}
+
+#content {
+	> .wrapper {width:100%;min-width:950px;}
+	& {width:90%;min-height:100%;padding-top:200px;margin:auto}
+	.main {
+		& {margin-left:280px;}
+	}
+	
+	.section {background-color:rgba(66,66,66,0.9);padding:50px;position:relative;max-width:1000px;margin:0px auto 30px auto}
+	.section {		
+		p {margin-bottom:20px;font-size:15px}
+		.title {position:absolute;left:50px;top:50px;margin-left:30px;border:1px solid #737373;text-align:center;font-weight:bold;border-radius:5px;padding:15px 25px;width:40px;font-size:20px;color:#737373}
+		.title.single {line-height:40px}
+		.title.wider {font-size:18px;width:55px;left:40px}		
+		.article {padding-left:150px;color:#eee}
+		.article.full {padding-left:0px}
+		h3 {margin:1rem auto;font-size:18px}
+		h3.sub {color:$orange;border:1px solid #7d7d7d;padding:10px 15px;display:inline-block}
+		table.price {
+			& {text-align:center;color:#a9a9a9}
+			td {
+				line-height:50px;border:1px dotted #a9a9a9;
+				&:first-child {border-left:none;font-weight:bold}
+				&:last-child {border-right:none}
+			}
+			
+			thead td {border-top:none;font-weight:bold}
+			tbody tr:last-child td {border-bottom:none}
+		}	
+		p.top {margin-top:30px}
+		p.bottom {margin-bottom:30px}	
+		p.secondary {color:#999}
+		p.tight {margin-bottom:0px}
+		p.date {color:$orange;margin-bottom:0px;font-weight:bold}
+	}
+	
+	.features {			
+		.col {float:left;border-right:1px dotted #7d7d7d;margin-right:3%}
+		.col.last {border-right:none}
+		.col > div {width:85%}
+		.col h4 {display:inline-block;padding:0px 30px;border-bottom:1px solid $orange;color:$orange;padding-bottom:10px;font-size:18px}
+		p {font-size:14px;margin-bottom:5px!important;color:#aaa}
+	}
+		
+	.hint {font-size:14px;margin-top:30px}
+	.hint p {margin-bottom:0px}
+	.label {color:#a9a9a9}
+	.text {color:#dadada}	
+	
+}
+
+.main.workshop-slience {
+	.features {
+		.article {min-height:280px}
+		.col {min-height:280px;width:30%}	
+	}
+}
+
+.main.workshop {
+	.features {
+		.col {width:44%;margin-right:5%!important;min-height:370px}
+		h4 {text-align:center;display:block!important}
+	}
+}
+
+.main.cooperate {
+	table {
+		& {width:100%;margin-top:30px}
+		td {vertical-align:middle;text-align:center;font-size:16px;color:#aaa;padding:0px 20px}
+		tr.text td {height:80px;vertical-align:top!important;padding-top:20px}
+		
+	}
+}
+
+.main.join {
+	h3.sub {border:none!important;padding:0px!important}
+	p.secondary {margin-bottom:0px!important}
+}
+
+.main.contact {
+	.wx-qr {width:160px;display:inline-block;text-align:center}
 }

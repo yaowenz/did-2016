@@ -208,6 +208,12 @@ optgroup {
 	font-weight: bold;
 }
 
+table {
+	border-collapse:collapse;border-spacing:0;
+}
+
+a, a:visited {text-decoration:none;color:white}
+
 div:focus {outline:none!important}
 
 .clear {
