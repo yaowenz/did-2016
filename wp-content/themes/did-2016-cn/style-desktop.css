@@ -10,9 +10,6 @@ Text Domain: did-2016
 /**
  * Variables
  */
-html, body {
-  overflow: hidden; }
-
 /**
  * Animations
  */
@@ -31,13 +28,13 @@ html, body {
   0% {
     left: 0px; }
   100% {
-    left: -100px; } }
+    left: -90px; } }
 
 @keyframes sidebar-hover {
   0% {
     left: 0px; }
   100% {
-    left: -100px; } }
+    left: -90px; } }
 
 @-webkit-keyframes bling {
   0% {
@@ -100,8 +97,7 @@ p {
  */
 .copyright {
   font-size: 12px;
-  color: #ccc;
-  text-align: right; }
+  color: #ccc; }
 
 .copyright a {
   color: #ccc !important; }
@@ -220,10 +216,10 @@ p {
 
 #sidebar > div {
   margin-bottom: 5px;
-  width: 55px; }
+  width: 45px; }
 
 #sidebar > div.tool {
-  height: 50px; }
+  height: 45px; }
 
 #sidebar > div.tool .button {
   position: absolute;
@@ -234,15 +230,15 @@ p {
 
 #sidebar > div.tool .button span {
   position: absolute;
-  left: 55px;
+  left: 45px;
   diaply: inline-block;
   width: 100px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 50px; }
 
 #sidebar > div.tool:hover .button {
-  width: 155px;
-  left: -100px;
+  width: 145px;
+  left: -90px;
   cursor: pointer;
   -webkit-animation: sidebar-hover 300ms;
           animation: sidebar-hover 300ms; }
@@ -389,16 +385,18 @@ p {
   position: absolute;
   left: 50%;
   top: 165px;
-  width: 580px;
+  max-width: 580px;
   display: none; }
 
 #topic-stadium .introduction .image {
-  border: 1px solid #424242;
-  height: 309px; }
+  border: 1px solid #424242; }
+
+#topic-stadium .introduction .image > img {
+  display: block; }
 
 #topic-stadium .introduction .reserve-button {
   position: absolute;
-  top: 330px;
+  top: 3px;
   right: 0px;
   cursor: pointer; }
 
@@ -406,7 +404,8 @@ p {
   color: #eee; }
 
 #topic-stadium .introduction h2 {
-  color: #BB9100; }
+  color: #BB9100;
+  position: relative; }
 
 #topic-stadium .introduction p {
   line-height: 1.5;
@@ -629,7 +628,7 @@ p {
   width: 180px; }
 
 #topic-partners .comments {
-  width: 1100px;
+  width: 1000px;
   margin: auto;
   height: 250px; }
 
@@ -671,10 +670,12 @@ p {
   margin-top: 5px; }
 
 #topic-partners .copyright {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  z-index: 2005; }
+  color: #999;
+  text-align: center;
+  margin-top: 20px; }
+
+#topic-partners .copyright a {
+  color: #999 !important; }
 
 #topic-partners .copyright .dse-logo {
   width: 50px;
@@ -683,11 +684,11 @@ p {
   left: -70px; }
 
 #topic-partners .brand-logos {
-  width: 1000px;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.5);
-  padding: 10px 10px;
-  border-radius: 5px; }
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: white;
+  padding: 20px 10px 10px 10px; }
 
 #topic-partners .brand-logos td {
   text-align: center;
@@ -883,10 +884,10 @@ img.slogan {
 #content .text {
   color: #dadada; }
 
-.main.workshop-slience .features .article {
+.main.workshop-slience .features .article, .main.workshop-edu .features .article {
   min-height: 280px; }
 
-.main.workshop-slience .features .col {
+.main.workshop-slience .features .col, .main.workshop-edu .features .col {
   min-height: 280px;
   width: 30%; }
 

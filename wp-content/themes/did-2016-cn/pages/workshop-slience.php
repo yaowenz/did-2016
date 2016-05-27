@@ -3,7 +3,7 @@
 		<div class="section" id="slience">
 			<div class="title wider">无声中对话</div>
 			<div class="article">
-				<img src="<?php echo get_template_directory_uri()?>/images/workshop-slience-logo.png" style="margin-bottom:20px" />
+				<img src="<?php echo get_template_directory_uri()?>/images/slience-workshop-logo.png" width="400" style="margin-bottom:20px" />
 				<p style="margin-top:10px">“无声中对话”关闭您的视觉，在一个完全无声的环境中进行。参与者们在听语障碍培训师的带领下参与者们进入一个无声的世界，使其需要迅速适应这一变化，摆脱日常工作和社交的束缚，发觉自己非语言表达方面的技能，进一步提升沟通能力。</p>
 				<p>无声意味着安静和放松，聆听之外的能力——观察、眼神沟通、动作和表情都是沟通的重要组成部分，而这项练习将带来全新的自我认知，开发新技能和能力，并在激发个人全新和人际互动方面的创新为领导者和员工带来长远的积极影响。</p>
 				<img src="<?php echo get_template_directory_uri()?>/images/pages/workshop-slience-1.jpg" width="100%" />
@@ -38,12 +38,11 @@
 				<div class="col last">
 					<div>
 						<h4>活动要求</h4>
-						<p>· 人数： <span class="text">每场12-27人</span></p>
+						<p>· 人数： <span class="text">每场8-40人</span></p>
 						<p>· 时间： <span class="text">标准工作坊3小时，定制工作坊1-3天</span></p>
-						<p>· 地点： <span class="text">特设暗房</span></p>
-	 					<p>每场12-20人最佳,也可具体协调。 </p>
-	  					<p>标准工作坊3小时,定制工作坊1-3天(面议)。</p>
-					</div>
+						<p>· 地点： <span class="text">光房，每场20人左右最佳,也可具体协调。</p>
+						<p>· 费用：<span class="text">3小时标准定制工作坊：16000RMB/21000RMB(中/英文，含税，不包括场地及差旅费用)</span></p>
+	  				</div>
 				</div>
 				<div class="clear"></div>
 			</div>		

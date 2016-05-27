@@ -1,5 +1,5 @@
 <div id="content">
-	<div class="main">
+	<div class="main workshop-edu">
 		<div class="section" id="trip">
 			<div class="title wider">教育工作坊</div>
 			<div class="article">
@@ -17,11 +17,33 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="section">
-			<div class="article">
-				<img src="<?php echo get_template_directory_uri()?>/images/pages/workshop-edu-3.png" width="90%" />
-			</div>
-			<div class="clear"></div>
+		<div class="section features">
+			<div class="article" style="padding-left:100px">
+				<div class="col">
+					<div>
+						<h4>针对群体</h4>
+						<p>· 寻求突破现状、提升潜力的青少年</p>
+						<p>· 想要体验并分享全新感受的所有人</p>						
+					</div>
+				</div>
+				<div class="col">
+					<div>
+						<h4>培训师团队</h4>
+						<p>· 数名听障教练和分享师共同组成我们的工作坊培训师团队</p>
+						<p>· 教练和分享师都具有丰富的经验并经过严格培训</p>
+					</div>
+				</div>
+				<div class="col last">
+					<div>
+						<h4>活动要求</h4>
+						<p>· 人数： <span class="text">每场25人最佳</span></p>
+						<p>· 时间： <span class="text">标准工作坊3小时，定制工作坊1-3天</span></p>
+						<p>· 地点： <span class="text">特设暗房 </p>
+						<p>· 费用：<span class="text">3小时标准定制工作坊：10000RMB/15000RMB(中/英文，含税，不包括场地及差旅费用)</span></p>
+	  				</div>
+				</div>
+				<div class="clear"></div>
+			</div>		
 		</div>
 		<div class="clear"></div>
 	</div>

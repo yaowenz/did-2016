@@ -1,10 +1,11 @@
 <div id="secondary-nav">
 	<ul>
 		<li><a href="#coffee">暗中咖啡</a></li>
-		<li><a href="#party">暗中派对</a></li>
-		<li><a href="#music">暗中音乐剧</a></li>
-		<li><a href="#dinner">暗中夜宴</a></li>
 		<li><a href="#adventure">暗中探险</a></li>
+		<li><a href="#party">暗中派对</a></li>
+		<li><a href="#music">暗中音乐会</a></li>
+		<li><a href="#dinner">暗中夜宴</a></li>
+		<li><a href="#contact">费用及定制</a></li>		
 	</ul>
 </div>
 <div id="content">
@@ -16,6 +17,16 @@
 				<p class="top">暗中咖啡是黑暗中对话系列团建活动。我们邀请有挑战精神与创新意识的企业团队或学生群体进入一间完全黑暗的咖啡馆。在未来的两个小时内，参与者们将会关闭视觉，继而打开其他的感官，与伙伴们一起面对一系列未知的挑战，并在此过程中重新认识自我，发掘自身潜力。</p>
 				<p>在完全黑暗的环境中，品咖啡，鉴美食。暗中咖啡帮你开启你的味觉、嗅觉、触觉、听觉……或奇妙或真诚或紧张的暗中游戏，让你真正在黑暗中打开身上的每一处感官体验。</p>
 				<p>跳出嘈杂繁忙的都市生活，只想与你在黑暗里静静地喝一杯咖啡。也许你喝过九十九种不同的咖啡，却独缺黑暗里的这一杯。</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="section" id="adventure">
+			<div class="title">暗中探险</div>
+			<div class="article">
+				<p>暗中探险是黑暗中对话黑暗拓展类活动之一，适合有冒险精神的企业团队与学生群体的素质拓展活动。我们打造了完全黑暗的空间，辅以拟真的游戏场景效果，在神秘的真人NPC辅助下，参与者过关斩将完成一系列“不可能完成”的任务。</p>
+				<p class="secondary">在寻找“达尔克文明”的黑暗旅途中，探险者们会帮助达尔克村的原住民完成一系列任务。其中包括：寻找布莱特药丸、寻找裴德多的进口宠物、绘制达尔克村地图等任务。</p>
+				<p class="secondary">钢筋水泥之外、神秘密林之间，两个小时紧张刺激的探险之旅，将会带你领略失落古文明的魅力，同时提升探险者们的自我觉察以及团队配合的能力。</p>
+				<img src="<?php echo get_template_directory_uri()?>/images/pages/events-5.jpg" width="100%" />
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -34,7 +45,7 @@
 			<div class="clear"></div>
 		</div>
 		<div class="section" id="music">
-			<div class="title wider">暗中音乐剧</div>
+			<div class="title wider">暗中音乐会</div>
 			<div class="article">
 				<img src="<?php echo get_template_directory_uri()?>/images/pages/events-3.jpg" width="100%" />
 				<p class="top">
@@ -56,17 +67,27 @@
 				<img src="<?php echo get_template_directory_uri()?>/images/pages/events-4.jpg" width="100%" />
 			</div>			
 			<div class="clear"></div>
-		</div>
-		<div class="section" id="adventure">
-			<div class="title">暗中探险</div>
+		</div>				
+		<div id="contact" class="section features" style="min-height:300px">
+			<div class="title wider">费用及定制</div>
 			<div class="article">
-				<p>暗中探险是黑暗中对话黑暗拓展类活动之一，适合有冒险精神的企业团队与学生群体的素质拓展活动。我们打造了完全黑暗的空间，辅以拟真的游戏场景效果，在神秘的真人NPC辅助下，参与者过关斩将完成一系列“不可能完成”的任务。</p>
-				<p class="secondary">在寻找“达尔克文明”的黑暗旅途中，探险者们会帮助达尔克村的原住民完成一系列任务。其中包括：寻找布莱特药丸、寻找裴德多的进口宠物、绘制达尔克村地图等任务。</p>
-				<p class="secondary">钢筋水泥之外、神秘密林之间，两个小时紧张刺激的探险之旅，将会带你领略失落古文明的魅力，同时提升探险者们的自我觉察以及团队配合的能力。</p>
-				<img src="<?php echo get_template_directory_uri()?>/images/pages/events-5.jpg" width="100%" />
-			</div>
-			<div class="clear"></div>
+				<div class="col last" style="float:none">
+					<div>
+						<h4>活动要求（暗中咖啡、暗中探险）</h4>
+						<p>· 人数： <span class="text">每场25人最佳</span></p>
+						<p>· 时间： <span class="text">标准场2小时，可定制</span></p>
+						<p>· 地点： <span class="text">特设暗房 </p>
+						<p>· 费用：<span class="text">2小时标准场：10000RMB/15000RMB(中/英文，含税，不包括场地及差旅费用)</span></p>
+						<p>* 其他形式均可联系我们进行定制</p>
+	  				</div>
+				</div>
+				<div class="clear"></div>
+			</div>		
 		</div>
+		
 		<div class="clear"></div>
+		
+		
+		
 	</div>
 </div>

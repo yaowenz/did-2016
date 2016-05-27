@@ -41,18 +41,15 @@
 		 -->
 		<!-- 深圳 -->
 		<div class="introduction shenzhen active" style="display:block">
-			<div class="image">
-				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" />
-			</div>
+			<div class="image"><img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" /></div>
 			<div class="text">
-				<h2>深圳体验馆</h2>
+				<h2>深圳体验馆<div class="reserve-button">在线订票</div></h2>
 				<p class="text">作为华南区首家 “黑暗中对话” 体验馆，除了传统项目以外，还创新地推出了黑暗约会、黑暗酒会、黑暗中身体作画、黑暗美食品鉴、隐形任务等系列活动，因此也被称为深圳「黑店」。在不同行业中也能看见 “黑店” 的影子，与WWF “地球一小时” 联合推出「黑暗大使」活动，携手中国（深圳）女子马拉松推出「黑暗奔跑」…… </p>
 				<p class="address">
-					·地址：福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					·预约电话：0755-88917887
+					· 福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）&nbsp;/&nbsp;0755-88917887
 				</p>
-				<p class="address" style="margin-top:5px">·营业时间：周二至周日（周一闭馆）10：00~20：30。</p>		
-				<div class="reserve-button">在线订票</div>
+				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>		
+				
 			</div>
 		</div>		
 		<!-- 成都 -->
@@ -61,14 +58,12 @@
 				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-cd.jpg" width="100%" />
 			</div>
 			<div class="text">
-				<h2>成都体验馆</h2>
-				<p class="text">“黑暗中对话”体验发生在完全黑暗的环境中。期待热爱自由、冒险的你加入这段黑暗旅程。75分钟的旅程中，一位“导赏员”将带领不超过八人的团队，以一个全新的角度欣赏这个世界。听觉、嗅觉、味觉、触觉，黑暗中这些熟悉的感官将会代替视觉，帮助您在黑暗中“看见”更多，准备好重新发掘世界的不同了吗？快来体验吧！</p>
+				<h2>成都体验馆<div class="reserve-button">在线订票</div></h2>
+				<p class="text">“黑暗中对话” 成都馆地处太古里商业圈，市中心繁华地带，交通便利，紧邻春熙路地铁口。作为中国大陆首家 “黑暗中对话” 体验馆，除了 “黑暗之旅” 与 “企业工作坊” 项目以外，还创新地推出了暗中音乐会、暗中夜宴，暗中生日趴、黑暗舞者等系列活动。</p>
 				<p class="address">
-					·地址：成都市锦江区滨江东路232号（靠近太古里）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					·预约电话：028-62103889
+					· 成都市锦江区滨江东路232号（靠近太古里）&nbsp;/&nbsp;028-62103889
 				</p>
-				<p class="address" style="margin-top:5px">·营业时间：周二至周四 10：00~18：00，周五至周日 10：00~20：00，   周一闭馆。</p>		
-				<div class="reserve-button">在线订票</div>
+				<p class="address" style="margin-top:5px">· 周二至周四 10：00~18：00，周五至周日 10：00~20：00，   周一闭馆。</p>						>
 			</div>
 		</div>	
 	</div>
@@ -82,8 +77,8 @@
 						<div class="title">
 							<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-corp.jpg" width="100%" /></div>
 							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-corp.jpg" width="100%" /></div>			
-							<h2>企业工作坊</h2>
-							<h2 class="english">Workshop</h2>
+							<h2>黑暗中对话工作坊</h2>
+							<h2 class="english">Dialogue in the dark Workshop</h2>
 						</div>
 						<div class="text slience">
 							<p>“黑暗中对话”在完全黑暗的环境中进行，借此激发对人性多元化的崭新体验。这是极少数可以在短时间内改变参与者行为模式的体验式培训之一。参与者与我们的视障培训师之间进行强弱角色的转变，促使其必须适应突如其来的短暂“失明”，强迫自己谦卑、放慢步调、关注内心，真实地审视自己的核心价值观和潜力。</p>
@@ -99,12 +94,13 @@
 						<div class="title">
 							<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-slience.jpg" width="100%" /></div>
 							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-slience.jpg" width="100%" /></div>			
-							<h2>无声中对话</h2>
-							<h2 class="english">Dialogue in the Slience</h2>
+							<h2>无声中对话工作坊</h2>
+							<h2 class="english">Dialogue in the Silence Workshop</h2>
 						</div>
 						<div class="text slience">
 							<p><img src="<?php echo get_template_directory_uri()?>/images/slience-workshop-logo.png" width="150" />
-							<p>对话社会企业的第二个项目无声中对话也已有了成熟的体验馆与工作坊项目，在听障培训师的带领下参与者们进入一个无声的世界，参与者们需要迅速适应这一变化，摆脱日常工作和社交的束缚，发觉自己非语言表达方面的技能，进一步提升肢体和多方沟通能力。特别适合需要与客户直接接触的服务性行业。</p>
+							<p>“无声中对话”关闭您的听觉，在一个完全无声的环境中进行。参与者们在听语障碍培训师的带领下，摆脱日常工作和社交的束缚，发觉自己非语言表达方面的技能，进一步提升沟通能力。</p>
+							<p>无声意味着安静和放松，聆听之外的能力——观察、眼神沟通、动作和表情都是沟通的重要组成部分，这项练习将带来全新的自我认知，在激发个人全新和人际互动方面的创新为领导者和员工带来长远的积极影响。</p>
 							<span class="reserve-button"><a href="<?php echo site_url('workshop-slience')?>">了解更多</a></span>
 						</div>
 						<div class="clear"></div>
@@ -120,7 +116,7 @@
 							<h2 class="english">Education</h2>
 						</div>
 						<div class="text slience">
-							<p>黑暗中对话”生命教育工作坊在完全黑暗的环境中进行，通过专业视障教练的引导来协助学生发现自己的生活意义、发展正确的态度及增进良好人际关系及彼此相互了解的方法︰透过学生们当下参与活动应对挑战，发现自己的感受，从互动与回馈中，培养学生的同理心，引导学生自觉关注内心。之后，专业的分享师将引导学生们就自己和团队在黑房里的表现发表感受，或对困扰问题加以讨论，从而增进相互了解、回馈并提出解决问题的方法。企业可以通过认养的方式举办学生工作坊和公益工作坊。</p>
+							<p>“黑暗中对话”生命教育工作坊在完全黑暗的环境中进行，通过专业视障教练的引导来协助学生发现自己的生活意义、发展正确的态度及增进良好人际关系及彼此相互了解的方法︰透过学生们当下参与活动应对挑战，发现自己的感受，从互动与回馈中，培养学生的同理心，引导学生自觉关注内心。之后，专业的分享师将引导学生们就自己和团队在黑房里的表现发表感受，或对困扰问题加以讨论，从而增进相互了解、回馈并提出解决问题的方法。企业可以通过认养的方式举办学生工作坊和公益工作坊。</p>
 							<span class="reserve-button"><a href="<?php echo site_url('workshop-edu')?>">了解更多</a></span>
 						</div>
 						<div class="clear"></div>
@@ -225,7 +221,7 @@
 	</div>
 	<!-- 合作伙伴 -->
 	<div id="topic-partners" class="topic">
-		<div class="center-wrapper">
+		<div class="center-wrapper" style="height:70%">
 			<div class="comments">
 				<div class="comment-1">
 					<img src="<?php echo get_template_directory_uri()?>/images/index-comment-1.png" />
@@ -238,9 +234,8 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			<h2>客户名录</h2>
 			<div class="brand-logos">
-				<table border="0" width="100%">
+				<table border="0" width="1000" align="center">
 					<tr valign="middle">
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/boc.png" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ge.png" height="45" /></td>
@@ -254,15 +249,13 @@
 						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/aia.png" /></td>					
 					</tr>
 				</table>
+				<div class="copyright">
+					<p>Copyright黑暗中对话（中国）版权所有 &nbsp;&nbsp;|&nbsp;&nbsp;沪ICP备12015459&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dialogue-in-the-dark.org.cn/contactus">联系我们</a></p>
+					<p>Dialogue in the Dark 是DSE的注册商标，黑暗中对话概念及相关商标版权属于德国对话社会企业</p>
+				</div>
 			</div>
 		</div>
-		<div class="copyright">
-			<p>Copyright黑暗中对话（中国）版权所有 &nbsp;&nbsp;|&nbsp;&nbsp;沪ICP备12015459&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dialogue-in-the-dark.org.cn/contactus">联系我们</a></p>
-			<p>
-				<a href="http://www.dialogue-se.com" target="_blank"><img class="dse-logo" src="<?php echo get_template_directory_uri()?>/images/logo-dse.gif" title=""></a>
-				Dialogue in the Dark 是DSE的注册商标，黑暗中对话概念及相关商标版权属于德国对话社会企业
-			</p>
-		</div>
+		
 	</div>
 </div>
 <!-- Slide Page Arrow -->
@@ -278,6 +271,10 @@ var topicAnimation = {
 	total: jQuery('#topics .topic').length,
 	animatedTopics: {},
 };
+
+if(!topicAnimation.onepageSupport) {
+	jQuery('.comments > div img').css('display', 'block');	
+}
 
 jQuery(function($) {	
 	$('#topic-home .sliders').slick({
@@ -340,14 +337,14 @@ jQuery(function($) {
 		if(topicAnimation.onepageSupport) {
 			$("#topics").moveDown();
 		}
-		else {			
+		else {
 			topicAnimation.currentIndex ++;
 			if(topicAnimation.currentIndex == topicAnimation.total) {
 				topicAnimation.currentIndex = 0;
 				$.scrollTo(0, 500);
 			}
 			else {				
-				$.scrollTo($($('#topics .topic')[topicAnimation.currentIndex]).offset().top, 500);				
+				$.scrollTo($($('#topics .topic')[topicAnimation.currentIndex]).offset().top, 500,  {axis:'y'});				
 			}
 		}
 	});
@@ -379,7 +376,7 @@ jQuery(function($) {
 		}
 	);	
 
-	//$("#topics").moveTo(6);
+	$("#topics").moveTo(3);
 });
 </script>
 <?php get_footer();?>

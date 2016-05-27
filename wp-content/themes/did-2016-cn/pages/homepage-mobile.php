@@ -250,11 +250,21 @@ jQuery(function($) {
 				}, 600);
 			}
 		}
+	});	
+
+	$('.topic').swipedown(function() {
+		setTimeout(function() {
+			$("#topics").moveUp();		
+		}, 0);
+		return false;
 	});
 
 
 	$('.topic').swipeup(function() {
-		$("#topics").moveDown();
+		setTimeout(function() {
+			$("#topics").moveDown();		
+		}, 0);
+		return false;
 	});
 
 	// 体验馆切换
