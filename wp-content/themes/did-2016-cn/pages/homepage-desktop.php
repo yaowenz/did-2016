@@ -130,7 +130,7 @@
 		<div class="center-wrapper">
 			<div class="events-wrapper">
 				<div class="row">
-					<div class="cell coffee text">						
+					<div class="cell coffee text" onclick="location.href='<?php echo site_url('special-events#coffee')?>'">						
 						<h2>暗中咖啡</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-right.png" /></div>
 						<p>也许你喝过九十九种不同的咖啡，却独缺黑暗里的这一杯。</p>
@@ -147,7 +147,7 @@
 							<img src="<?php echo get_template_directory_uri()?>/images/index-event-dinner-grey.jpg" />
 						</div>
 					</div>
-					<div class="cell dinner text">
+					<div class="cell dinner text" onclick="location.href='<?php echo site_url('special-events#dinner')?>'">
 						<h2>暗中夜宴</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-left.png" /></div>
 						<p>抛弃视觉，仅用味觉、嗅觉与触觉用心感受食物。</p>
@@ -166,12 +166,12 @@
 							<img src="<?php echo get_template_directory_uri()?>/images/index-event-party-grey.jpg" />
 						</div>
 					</div>
-					<div class="cell party text">
+					<div class="cell party text" onclick="location.href='<?php echo site_url('special-events#party')?>'">
 						<h2>暗中派对</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-left.png" /></div>
 						<p>黑暗特别时刻，即使我们隐藏其中，彼此却如此靠近。</p>
 					</div>
-					<div class="cell music text">
+					<div class="cell music text" onclick="location.href='<?php echo site_url('special-events#music')?>'">
 						<h2>暗中音乐剧</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-right.png" /></div>
 						<p style="text-align:right">你，不仅仅是观众，<br/>你将成为音乐剧的一部分！</p>
@@ -182,7 +182,7 @@
 							<img src="<?php echo get_template_directory_uri()?>/images/index-event-music-grey.jpg" />
 						</div>
 					</div>
-					<div class="cell adventure text">
+					<div class="cell adventure text" onclick="location.href='<?php echo site_url('special-events#adventure')?>'">
 						<h2>暗中探险</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-up.png" /></div>
 						<p>寻找“达尔克文明”，我们将在黑暗中完成一系列任务。</p>
@@ -376,7 +376,7 @@ jQuery(function($) {
 		}
 	);	
 
-	$("#topics").moveTo(3);
+	//$("#topics").moveTo(3);
 });
 </script>
 <?php get_footer();?>
