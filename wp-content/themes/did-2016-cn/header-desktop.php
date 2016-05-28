@@ -38,7 +38,7 @@
 							<li><a href="<?php echo site_url('workshop')?>">黑暗中对话工作坊</a></li>
 							<li><a href="<?php echo site_url('workshop-slience')?>">无声中对话工作坊</a></li>
 							<li><a href="<?php echo site_url('workshop-edu')?>">教育工作坊</a></li>	
-							<!-- <li>日程表</li> -->													
+							<li><a href="<?php echo site_url('workshop-calendar')?>">日程表</a></li>										
 						</ul>
 						<p class="brief">针对企业，政府机构和组织开发，是极少数可在短时间内改变参与者行为模式的体验式培训之一</p>					
 					</div>
@@ -50,6 +50,20 @@
 			<!-- 特别活动 -->
 			<div class="events menu">
 				<a href="<?php echo site_url('special-events')?>">&nbsp;</a>
+				<div class="sub-menu">
+					<div class="list">
+						<ul>
+							<li><a href="<?php echo site_url('special-events#coffee')?>">暗中咖啡</a></li>
+							<li><a href="<?php echo site_url('special-events#adventure')?>">暗中探险</a></li>
+							<li><a href="<?php echo site_url('special-events#party')?>">暗中派对</a></li>
+							<li><a href="<?php echo site_url('special-events#music')?>">暗中音乐会</a></li>
+							<li><a href="<?php echo site_url('special-events#dinner')?>">暗中夜宴</a></li>						
+						</ul>									
+					</div>
+					<div class="image">
+						<img src="<?php echo get_template_directory_uri()?>/images/index-menu-thumb-events.jpg" /> 
+					</div>
+				</div>
 			</div>
 			<!-- 品牌合作 -->
 			<div class="cooperation menu">
@@ -72,7 +86,8 @@
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li><a href="<?php echo site_url('about')?>">品牌故事</a></li>						
+							<li><a href="<?php echo site_url('about')?>">品牌故事</a></li>	
+							<li><a href="<?php echo site_url('responsibility')?>">社会责任</a></li>						
 							<li><a href="<?php echo site_url('contact')?>">联系我们</a></li>							
 							<li><a href="<?php echo site_url('join')?>">加入我们</a></li>
 							<!-- <li>FAQ</li> -->							
@@ -99,10 +114,10 @@
 <!-- Sidebar -->
 <div id="sidebar">
 	<div class="tool-wx tool">
-		<div class="button"><span>关注微信</span></div>
+		<div class="button"><span><a href="<?php echo site_url('contact')?>">关注微信</a></span></div>
 	</div>
 	<div class="tool-corp tool">
-		<div class="button"><span>工作坊预约</span></div>	
+		<div class="button"><span><a href="<?php echo site_url('contact')?>">工作坊预约</a></span></div>	
 	</div>
 	<div class="tool-ticket tool">
 		<div class="button"><span>在线订票</span></div>

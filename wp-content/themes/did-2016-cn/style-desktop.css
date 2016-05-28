@@ -102,6 +102,9 @@ p {
 .copyright a {
   color: #ccc !important; }
 
+.copyright a:hover {
+  text-decoration: underline; }
+
 .copyright p {
   line-height: 1.8; }
 
@@ -122,7 +125,7 @@ p {
 #primary-menu .menu-buttons {
   position: absolute;
   right: 50px;
-  bottom: 0px; }
+  bottom: -4px; }
 
 #primary-menu .menu-buttons > .menu > a {
   display: inline-block;
@@ -173,7 +176,7 @@ p {
   padding: 20px 25px;
   border-radius: 10px;
   width: 680px;
-  top: 146px;
+  top: 150px;
   position: fixed;
   right: 0px;
   background: #323232;
@@ -916,14 +919,24 @@ img.slogan {
   vertical-align: top !important;
   padding-top: 20px; }
 
-.main.join h3.sub {
+.main #clients .article > p {
+  display: inline-block;
+  width: 45%; }
+
+.main.join h3.sub, .main.responsibility h3.sub {
   border: none !important;
   padding: 0px !important; }
 
-.main.join p.secondary {
+.main.join p.secondary, .main.responsibility p.secondary {
   margin-bottom: 0px !important; }
 
 .main.contact .wx-qr {
   width: 160px;
   display: inline-block;
   text-align: center; }
+
+.main.workshop-calendar select, .main.workshop-calendar .fc-button-content {
+  color: #333; }
+
+.main.workshop-calendar .fc-widget-header {
+  padding: 10px 0px; }
