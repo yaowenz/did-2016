@@ -403,7 +403,7 @@ p {
   width: 650px;
   height: 602px;
   position: absolute;
-  top: 150px;
+  top: 80px;
   left: 0px; }
 
 #topic-stadium .map .locator {
@@ -424,8 +424,8 @@ p {
   background-position: -163px 0px; }
 
 #topic-stadium .map .locator.shenzhen {
-  top: 480px;
-  right: 280px;
+  top: 490px;
+  right: 290px;
   background-position: -240px 0px; }
 
 #topic-stadium .map .locator.chengdu {

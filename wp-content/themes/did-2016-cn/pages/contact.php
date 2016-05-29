@@ -16,8 +16,8 @@
 				<p class="tight">M: 189 6499 9792</p>
 				<p>E: info@dialogue-in-the-dark.org.cn</p>
 				<p class="wx-qr">
-					<img src="<?php echo get_template_directory_uri()?>/images/wx-shanghai.jpg" /><br/>
-					黑暗中对话
+					<img src="<?php echo get_template_directory_uri()?>/images/qr-sh.jpg" width="200" /><br/>
+					黑暗中对话上海
 				</p>				
 			</div>
 			<div class="clear"></div>
@@ -31,7 +31,7 @@
 				<p class="tight">M: 186 1577 1077</p>
 				<p>E: info@dialogue-in-the-dark.org.cn</p>
 				<p class="wx-qr">
-					<img src="<?php echo get_template_directory_uri()?>/images/wx-shanghai.jpg" /><br/>
+					<img src="<?php echo get_template_directory_uri()?>/images/qr-cd.jpg" width="200" /><br/>
 					黑暗中对话成都体验馆
 				</p>				
 			</div>
@@ -46,7 +46,7 @@
 				<p class="tight">M: 186 8894 9987</p>
 				<p>E: august.luo@didchina.org</p>
 				<p class="wx-qr">
-					<img src="<?php echo get_template_directory_uri()?>/images/wx-shanghai.jpg" /><br/>
+					<img src="<?php echo get_template_directory_uri()?>/images/qr-sz.jpg" width="200" /><br/>
 					黑暗中对话深圳体验馆
 				</p>				
 			</div>

@@ -166,13 +166,13 @@ p {line-height:1.6}
 }
 
 #topic-stadium {
-	.map {background-image:url('images/index-map.png?ts=1');background-repeat:no-repeat;;width:650px;height:602px;position:absolute;top:150px;left:0px}
+	.map {background-image:url('images/index-map.png?ts=1');background-repeat:no-repeat;;width:650px;height:602px;position:absolute;top:80px;left:0px}
 	.map {
 		.locator {cursor:pointer;position:absolute;background-size:auto 100%;background-repeat:no-repeat;background-image:url('images/index-map-locator.png');height:75px;width:80px}
 		.locator {
 			&:hover, &.active {background-image:url('images/index-map-locator-active.png')}
 			&.shanghai {top:360px;right:150px;background-position:-163px 0px}
-			&.shenzhen {top:480px;right:280px;background-position:-240px 0px}
+			&.shenzhen {top:490px;right:290px;background-position:-240px 0px}
 			&.chengdu {top:350px;right:420px;background-position:-85px 0px}
 			&.beijing {top:230px;right:230px;background-position:-8px 0px}
 			
