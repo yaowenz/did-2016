@@ -120,13 +120,39 @@
 		<div class="button"><span><a href="<?php echo site_url('contact')?>">工作坊预约</a></span></div>	
 	</div>
 	<div class="tool-ticket tool">
-		<div class="button"><span>在线订票</span></div>
+		<div class="button booking"><span>在线订票</span></div>
 	</div>
-	<div class="tool-news"><img src="<?php echo get_template_directory_uri()?>/images/sidebar-news.png" width="100%" /></div>
+	<div class="tool-news">
+		<img src="<?php echo get_template_directory_uri()?>/images/sidebar-news.png" width="100%" />
+		<div class="news-list">		
+		<?php 
+    		$args = array (
+				'category_name'          => 'news',
+				'pagination'             => false,
+				'posts_per_page'		 => 4,
+			);
+    		// The Query
+    		$query = new WP_Query( $args );
+    		$news = $query->posts;
+    		
+    		foreach($news as $v):
+    	?>
+    		<p><a href="<?php echo get_the_permalink($v)?>"><?php echo get_the_date('Y-m-d', $v)?>&nbsp;&nbsp;<?php echo get_the_title($v)?></a></p>
+    	<?php endforeach;?>		  
+		</div>
+	</div>
+</div>
+<!-- Booking -->
+<div class="overlay booking hidden">
+	<div class="wrapper">
+		<div class="booking-goback">&lt;&nbsp;后退</div>
+		<div class="close"><img src="<?php echo get_template_directory_uri()?>/images/close-icon-white.png" width="30" /></div>
+		<iframe class="booking" frameborder="0" ori="http://booking.dialogue-in-the-dark.org.cn" src="http://booking.dialogue-in-the-dark.org.cn" height="100%" width="100%"></iframe>
+	</div>
 </div>
 <script type="text/javascript">
 var primaryMenuShow = false;
-jQuery(function($) {
+jQuery(function($) {	
 	// 菜单切换
 	$('#alter-menu').hover(
 		function() {
@@ -150,6 +176,32 @@ jQuery(function($) {
 				}
 			}, 500);
 			
+		}
+	);
+
+	// booking window
+	$('.booking-goback').click(function() {
+		$('iframe.booking')[0].contentWindow.history.go(-1);
+	});
+	$('.booking.overlay .close').click(function() {
+		$('#nav').removeClass('hidden');
+		$('.booking.overlay').addClass('hidden');
+	});
+	
+	$('.booking.button').click(function() {
+		return false;
+		$('#nav').addClass('hidden');
+		$('.booking.overlay').removeClass('hidden');		
+		$('iframe.booking').attr('src', $('iframe.booking').attr('ori')); 
+	});
+
+	// news list
+	$('.tool-news').hover(
+		function() {
+			$('.tool-news .news-list').fadeIn(200);
+		},
+		function() {
+			$('.tool-news .news-list').fadeOut(200);
 		}
 	);
 });
