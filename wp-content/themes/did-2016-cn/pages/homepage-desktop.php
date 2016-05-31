@@ -235,18 +235,20 @@
 				<div class="clear"></div>
 			</div>
 			<div class="brand-logos">
-				<table border="0" width="1000" align="center">
+				<table border="0" width="1000" align="center">							
 					<tr valign="middle">
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/boc.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ge.png" height="45" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ceibs.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ikea.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-1.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-2.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-3.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-4.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-5.png" /></td>
 					</tr>
 					<tr valign="middle">
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/hsbc.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/dbs.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/bi.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/aia.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-6.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-7.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-8.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-9.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-10.png" /></td>
 					</tr>
 				</table>
 				<div class="copyright">
@@ -376,7 +378,7 @@ jQuery(function($) {
 		}
 	);	
 
-	//$("#topics").moveTo(3);
+	//$("#topics").moveTo(6);
 });
 </script>
 <?php get_footer();?>

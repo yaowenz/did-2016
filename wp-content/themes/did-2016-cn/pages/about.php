@@ -6,7 +6,7 @@
 	</ul>
 </div>
 <div id="content">
-	<div class="main">
+	<div class="main about">
 		<div class="section" id="story">
 			<div class="title">品牌故事</div>
 			<div class="article">
@@ -57,25 +57,46 @@
 				<p>黑暗中对话（中国）派代表参加在香港举行的对话社会企业全球会议，其中包括4名视障员工。</p>		
 						
 				<p class="date">2011.11</p>
-				<p>第二位全职视障教练在上海到岗。</p>
+				<p>第二位全职视障教练在上海到岗。</p>			
 								
 				<p class="date">2012.2</p>
 				<p>黑暗中对话（中国）的民非执照获颁，雇佣员工增加到25人，包括15名视障员工，5名全职员工和5名长期志愿者。</p>
 				
+				<p class="date">2012.5-6</p>
+				<p>创始人蔡史印TEDxShanghai和TEDxNanjing演讲</p>
+				
+				<p class="date">2012.6</p>
+				<p>三位视障教练参加意大利米兰举行的“黑暗中对话”国际会议及教练培训</p>
 				<p class="date">2013.9</p>
 				<p>黑暗中对话成都体验馆开馆</p>
+				
+				<p class="date">2013.10</p>
+				<p> 两位视障教练参加印度举行的“黑暗中对话”国际会议及教练培训</p>
 				
 				<p class="date"2014.5></p>
 				<p>无声中对话落户中国</p>
 				
+				<p class="date">2014.6</p>
+				<p> 上海视障教练张平在TEDxLujiazui演讲“听游天下“</p>
+				
+				<p class="date">2014.9</p>
+				<p> 两位视障教练参加德国汉堡举行的“黑暗中对话”国际会议及教练培训</p>				
+				
 				<p class="date">2014.11</p>
 				<p>成都黑暗中咖啡开业</p>
+				
+				<p class="date">2015.10</p>
+				<p> 两位视障教练和成都体验馆代表参加新加坡举行的“黑暗中对话”国际会议及教练培训</p>
+				
 				
 				<p class="date">2015.12</p>
 				<p>深圳黑暗中对话开馆</p>
 				
 				<p class="date">2016.4</p>
-				<p>黑暗跑团成立</p>				
+				<p>黑暗跑团成立</p>
+				
+				<p class="date">2016.4</p>
+				<p>上海黑暗中对话服务中心获得上海市十佳优秀女性社会组织奖及“巾帼文明岗”称号</p>
 			</div>
 			<div class="clear"></div>
 		</div>		

@@ -239,8 +239,7 @@ p {line-height:1.6}
 	.product.edu:hover {
 		> div {border-color:#ac2b31}
 		.title h2 {color:#ac2b31}
-	}
-		
+	}	
 }
 
 #topic-events {
@@ -301,9 +300,9 @@ p {line-height:1.6}
 	.copyright {color:#999;text-align:center;margin-top:20px}
 	.copyright a {color:#999!important}
 	.copyright .dse-logo {width: 50px;position:absolute;top:0px;left:-70px}
-	.brand-logos {position:absolute;bottom:0px;width:100%;background:white;padding:20px 10px 10px 10px;}
+	.brand-logos {position:absolute;bottom:0px;width:100%;padding:20px 10px 10px 10px;}
 	.brand-logos {
-		td {text-align:center;width:25%;height:55px}
+		td {text-align:center;width:20%;height:55px}
 		td img {max-height:45px;max-width:155px}
 	}	
 }
@@ -376,6 +375,12 @@ img.slogan {width:230px;left:5%;position:fixed;top:200px}
 	
 }
 
+.main.stadium {
+	.trip-photo {position:absolute;right:50px;top:50px}
+	.trip-brief {padding-right:280px;min-height:380px;padding-bottom:15px}
+	
+}
+
 .main.workshop-slience, .main.workshop-edu {
 	.features {
 		.article {min-height:280px}
@@ -388,6 +393,7 @@ img.slogan {width:230px;left:5%;position:fixed;top:200px}
 		.col {width:44%;margin-right:5%!important;min-height:370px}
 		h4 {text-align:center;display:block!important}
 	}
+	.sign {text-align: right;color:white;font-size:16px!important}
 }
 
 .main.cooperate {
@@ -409,7 +415,7 @@ img.slogan {width:230px;left:5%;position:fixed;top:200px}
 }
 
 .main.contact {
-	.wx-qr {width:160px;display:inline-block;text-align:center}
+	.wx-qr {width:200px;display:inline-block;text-align:center}
 }
 
 .main.workshop-calendar {

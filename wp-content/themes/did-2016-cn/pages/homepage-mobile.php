@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div id="topics" style="height:100%">
 	<!-- First Impression -->
-	<div id="topic-home" class="topic">
+	<div id="topic-home" class="topic section">
 		<!-- Text -->
 		<div class="propaganda">
 			<div class="line-1"><img src="<?php echo get_template_directory_uri()?>/images/index-1-text-mobile.png" width="100%" /></div>
@@ -9,7 +9,7 @@
 		</div>	
 	</div>
 	<!-- 体验馆 -->
-	<div id="topic-stadium" class="topic">
+	<div id="topic-stadium" class="topic section">
 		<h1>走进黑暗之旅...</h1>
 		<div class="map">
 			<!-- <div class="locator shanghai" data-tab="shanghai"></div> -->
@@ -43,33 +43,33 @@
 		</div>	
 	</div>
 	<!-- 工作坊 -->
-	<div id="topic-workshop" class="topic">	
+	<div id="topic-workshop" class="topic section">	
 		<div class="products-wrapper center-wrapper">
 			<div class="products">
 				<!-- Workshop -->
-				<div class="product corp wrapper no-offset">
+				<div class="product corp wrapper no-offset linkable" data-href="<?php echo site_url('workshop')?>">
 					<div class="cover">
 						<img src="<?php echo get_template_directory_uri()?>/images/index-workshop-corp.jpg" width="100%" />
 					</div>
 					<div class="title">					
 						<h2>企业工作坊</h2>
-						<h2 class="english">Workshop</h2>
+						<h2 class="english">DID Workshop</h2>
 						<p class="text">这是极少数可以在短时间内改变参与者行为模式的体验式培训之一...</p>
 					</div>					
 					<div class="clear"></div>				
 				</div>
 				<!-- Slience -->
-				<div class="product slience wrapper">
+				<div class="product slience wrapper linkable" data-href="<?php echo site_url('workshop-slience')?>">
 					<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-slience.jpg" width="100%" /></div>
 					<div class="title">
 						<h2>无声中对话</h2>
-						<h2 class="english">Dialogue in the Slience</h2>
+						<h2 class="english">Dialogue in the Slience Workshop</h2>
 						<p class="text">摆脱日常工作和社交的束缚，发觉自己非语言表达方面的技能。</p>
 					</div>
 					<div class="clear"></div>				
 				</div>
 				<!-- Education -->
-				<div class="product edu wrapper">
+				<div class="product edu wrapper linkable" data-href="<?php echo site_url('workshop-education')?>">
 					<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-edu.jpg" width="100%" /></div>
 					<div class="title">
 						<h2>教育工作坊</h2>
@@ -82,31 +82,31 @@
 		</div>	
 	</div>
 	<!-- 特别活动 -->
-	<div id="topic-events" class="topic">
+	<div id="topic-events" class="topic section">
 		<div class="center-wrapper">
 			<div class="events-wrapper">
 				<div class="row">
-					<div class="cell coffee text">						
+					<div class="cell coffee text linkable" data-href="<?php echo site_url('special-events#coffee')?>">						
 						<h2>暗中咖啡</h2>
 						<p>也许你喝过九十九种不同的咖啡，却独缺黑暗里的这一杯。</p>
 					</div>					
-					<div class="cell dinner text">
+					<div class="cell dinner text linkable" data-href="<?php echo site_url('special-events#dinner')?>">
 						<h2>暗中夜宴</h2>
 						<p>抛弃视觉，仅用味觉、嗅觉与触觉用心感受食物。</p>
 					</div>	
-					<div class="cell party text">
+					<div class="cell party text linkable" data-href="<?php echo site_url('special-events#party')?>">
 						<h2>暗中派对</h2>
 						<p>黑暗特别时刻，即使我们隐藏其中，彼此却如此靠近。</p>
 					</div>
-					<div class="cell music text">
+					<div class="cell music text linkable" data-href="<?php echo site_url('special-events#music')?>">
 						<h2>暗中音乐剧</h2>
 						<p>你，不仅仅是观众，<br/>你将成为音乐剧的一部分！</p>
 					</div>					
-					<div class="cell adventure text">
+					<div class="cell adventure text linkable" data-href="<?php echo site_url('special-events#adventure')?>">
 						<h2>暗中探险</h2>
 						<p>寻找“达尔克文明”，我们将在黑暗中完成一系列任务。</p>
 					</div>
-					<div class="cell more text">					
+					<div class="cell more text linkable" data-href="<?php echo site_url('contact')?>">					
 						<p>联系我们<br/>定制更多活动</p>
 					</div>
 				</div>
@@ -115,7 +115,7 @@
 		</div>
 	</div>
 	<!-- 我们的使命 -->
-	<div id="topic-mission" class="topic">
+	<div id="topic-mission" class="topic section">
 		<div class="center-wrapper">
 			<h1>我们的使命</h1>
 			<h2>我们为视障人士创造发挥其才智的就业机会，促进多元和包容的社会文化。</h2>
@@ -138,7 +138,7 @@
 		</div>
 	</div>
 	<!-- 合作伙伴 -->
-	<div id="topic-partners" class="topic">
+	<div id="topic-partners" class="topic section">
 		<div class="center-wrapper">
 			<div class="comments">
 				<div class="comment-1">
@@ -151,26 +151,33 @@
 					<img src="<?php echo get_template_directory_uri()?>/images/index-comment-3.png" />
 				</div>				
 			</div>
-			<h2>客户名录</h2>
 			<div class="brand-logos">
-				<table border="0" width="100%">
+				<table border="0" width="100%" align="center">							
 					<tr valign="middle">
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/boc.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ge.png" height="45" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-1.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-2.png" /></td>
+					</tr>					
+					<tr valign="middle">
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-3.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-4.png" /></td>
 					</tr>
 					<tr valign="middle">
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ceibs.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/ikea.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-5.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-6.png" /></td>
 					</tr>
-					<tr valign="middle">
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/hsbc.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/dbs.png" /></td>
+					<tr valign="middle">					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-7.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-8.png" /></td>					
 					</tr>
-					<tr valign="middle">
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/bi.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/aia.png" /></td>					
+					<tr valign="middle">					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-9.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-10.png" /></td>
 					</tr>
 				</table>
+				<div class="copyright">
+					<p>Copyright黑暗中对话（中国）版权所有 &nbsp;&nbsp;|&nbsp;&nbsp;沪ICP备12015459&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo site_url('contact')?>">联系我们</a></p>
+					<p>Dialogue in the Dark 是DSE的注册商标，黑暗中对话概念及相关商标版权属于德国对话社会企业</p>
+				</div>
 			</div>
 		</div>
 		<div class="copyright">
@@ -195,22 +202,10 @@ jQuery(function($) {
 	}, 1200);
 
 	// scroll
-	$("#topics").onepage_scroll({
-		sectionContainer: ".topic",     // sectionContainer accepts any kind of selector in case you don't want to use section
-		easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
-		                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-		animationTime: 500,             // AnimationTime let you define how long each section takes to animate
-		pagination: false,                // You can either show or hide the pagination. Toggle true for show, false for hide.
-		updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-		//beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
-		//afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
-		loop: true,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-		keyboard: true,                  // You can activate the keyboard controls
-		responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
-		                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
-		                                    // the browser's width is less than 600, the fallback will kick in.
-		direction: "vertical",            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
-		afterMove: function(index) {
+	$("#topics").fullpage({		
+		//loopTop: true,
+		loopBottom: true,
+		afterLoad : function(anchorLink, index) {
 			// 合作伙伴动画
 			if(index == 6) {
 				$('#topic-partners .comment-1 img').fadeIn(500);					
@@ -252,20 +247,7 @@ jQuery(function($) {
 		}
 	});	
 
-	$('.topic').swipedown(function() {
-		setTimeout(function() {
-			$("#topics").moveUp();		
-		}, 0);
-		return false;
-	});
 
-
-	$('.topic').swipeup(function() {
-		setTimeout(function() {
-			$("#topics").moveDown();		
-		}, 0);
-		return false;
-	});
 
 	// 体验馆切换
 	$('#topic-stadium .locator').tap(function() {	
@@ -285,9 +267,14 @@ jQuery(function($) {
 		$("#topics").moveDown();		
 	});
 
-	//$("#topics").moveTo(3);
+	// tap link
+	$('.linkable').tap(function() {
+		location.href = $(this).data('href');
+		return false;
 
-	
+	});
+
+	//$.fn.fullpage.moveTo(6);
 });
 </script>
 <?php get_footer();?>

@@ -6,20 +6,20 @@
 	</ul>
 </div>
 <div id="content">
-	<div class="main">
+	<div class="main stadium">
 		<div class="section" id="trip">
 			<div class="title">黑暗旅程</div>
 			<div class="article">
-				<div style="padding-right:280px;min-height:380px;padding-bottom:15px">
+				<div class="trip-photo">
+					<img src="<?php echo get_template_directory_uri()?>/images/pages/stadium-new-1.jpg" width="250" />
+				</div>
+				<div class="trip-brief">
 					<p>“黑暗旅程”将关闭您的视觉，颠覆您的感官——它在一个完全黑暗的环境中进行。</p>
 					<p>75分钟的旅程中，一位“导赏员”将带领一个不超过八人的团队，以一个全新的角度欣赏这个世界。在黑暗中，视觉将会被听觉、嗅觉、味觉、触觉所替代，这些感官帮助您在黑暗中“看见”更多。</p>
 					<p>期待热爱自由、冒险的你加入这段“黑暗旅程”，<span class="orange">准备好重新发掘世界的不同了吗？</span></p>
 					<p style="border-bottom:1px solid #999;margin:30px 0px"></p>
 					<p style="color:#999;font-size:14px">所有的导赏员都是失明或弱视人士，受聘于黑暗中的对话，并接受过专业的训练。他们陪伴参观者完成整个体验，并将这样的经一个富有想象力，寓教于乐的体验：突破焦虑和迷茫，通过其他感官感知世界的喜悦！</p>
-				</div>
-				<div style="position:absolute;right:50px;top:50px">
-					<img src="<?php echo get_template_directory_uri()?>/images/pages/stadium-new-1.jpg" width="250" />
-				</div>
+				</div>				
 			</div>
 			<div class="clear"></div>
 		</div>

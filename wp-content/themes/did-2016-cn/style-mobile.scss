@@ -35,6 +35,10 @@ h1 {font-size:24px}
   100% { opacity: 1 }
 }
 
+p {line-height:1.6}
+.orange {color:$orange}
+.hidden {display:none}
+
 
 /**
  * Header
@@ -46,6 +50,18 @@ h1 {font-size:24px}
 
 #contact-header {
 	position:fixed;z-index:2050;right:60px;top:15px;line-height:30px;color:white;font-size:14px
+}
+
+.reserve-button a:visited, .reserve-button a {color:#BB9100!important}
+
+/**
+ * Footer
+ */
+.copyright {
+	& {font-size:12px;color:#ccc;display:none}
+	a {color:#ccc!important}
+	a:hover {text-decoration:underline}
+	p {line-height:1.8}	
 }
 
 /**
@@ -118,14 +134,14 @@ h1 {font-size:24px}
 
 #topic-stadium {
 	h1 {text-align:right;font-size:20px;position:absolute;right:5%;top:100px;color:#eee;z-index:10;width:100%;font-weight:normal;display:none}
-	.map {display:none;background-image:url('images/index-map.png');min-height:300px;height:55%;background-repeat:no-repeat;;width:100%;position:absolute;top:60px;left:0px;background-size:contain}
+	.map {display:none;background-image:url('images/index-map.png');min-height:300px;height:55%;background-repeat:no-repeat;;width:90%;position:absolute;top:60px;left:0px;background-size:contain}
 	.map {
 		.locator {cursor:pointer;position:absolute;background-size:auto 100%;background-repeat:no-repeat;background-image:url('images/index-map-locator.png');height:56px;width:60px}
 		.locator {
 			&:hover, &.active {background-image:url('images/index-map-locator-active.png')}
 			&.shanghai {top:360px;right:150px;background-position:-163px 0px}
-			&.shenzhen {top:75%;right:45%;background-position:-176px 0px}
-			&.chengdu {top:50%;left:15%;background-position:-62px 0px}
+			&.shenzhen {top:68%;right:42%;background-position:-176px 0px}
+			&.chengdu {top:45%;left:18%;background-position:-62px 0px}
 			&.beijing {top:230px;right:230px;background-position:-8px 0px}
 			
 		}
@@ -161,17 +177,17 @@ h1 {font-size:24px}
 	}
 	
 	.product.slience {
-		& {border-color:#00713f}
+		& {border-color:#666}
 		.title h2, p.text {color:#00b364}
 	}
 	
 	.product.corp {
-		& {border-color:#d56d48;height:114px}
+		& {border-color:#666;height:114px}
 		.title h2, p.text {color:#d56d48}
 	}
 	
 	.product.edu {
-		& {border-color:#ac2b31}
+		& {border-color:#666}
 		.title h2, p.text {color:#ac2b31}
 	}
 		
@@ -233,9 +249,124 @@ h1 {font-size:24px}
 	.copyright p {line-height:1.8}
 	.dse-logo {width: 50px;position:absolute;top:0px;left:-70px}
 	
-	.brand-logos {width:90%;margin:auto;background:rgba(255,255,255,0.8);border-radius:5px}
+	.brand-logos {width:90%;margin:auto}
 	.brand-logos {
-		td {text-align:center;width:20%;padding:5px 0px}
+		td {text-align:center;width:50%;padding:5px 0px}
 		td img {max-height:30px;max-width:70%}
 	}
+}
+
+/**
+ * Content Pages
+ */
+img.slogan {display:none}
+#secondary-nav {display:none}
+
+.content-page {height:auto;background-size:contain;background-image:url('images/mobile-bg-index.jpg');background-repeat:no-repeat;background-position:left top;background-attachment:fixed}
+.content.copyright {pwidth:100%;text-align:center;margin-top:50px;margin-bottom:20px}
+
+#content {
+	> .wrapper {width:100%}
+	& {width:90%;min-height:100%;padding-top:100px;margin:auto}
+
+	.section {background-color:rgba(66,66,66,0.9);padding:15px 20px;position:relative;margin:0px auto 30px auto}
+	.section {		
+		p {margin-bottom:20px;font-size:15px}
+		.title {width:50%;margin:0px auto 15px auto;border:1px solid #737373;text-align:center;font-weight:bold;border-radius:5px;padding:15px 25px;font-size:20px;color:#737373}
+		.title.single {line-height:40px}		
+		.article {color:#eee}
+		.article.full {padding-left:0px}
+		h3 {margin:1rem auto;font-size:18px}
+		h3.sub {color:$orange;border:1px solid #7d7d7d;padding:10px 15px;display:inline-block}
+		table.price {
+			& {text-align:center;color:#a9a9a9}
+			td {
+				border:1px dotted #a9a9a9;padding:10px 5px;
+				font-size:12px;line-height:1.8;
+				&:first-child {border-left:none;font-weight:bold}
+				&:last-child {border-right:none}
+			}
+			
+			thead td {border-top:none;font-weight:bold}
+			tbody tr:last-child td {border-bottom:none}
+		}	
+		p.top {margin-top:15px}
+		p.bottom {margin-bottom:30px}	
+		p.secondary {color:#999}
+		p.tight {margin-bottom:0px}
+		p.date {color:$orange;margin-bottom:0px;font-weight:bold}
+	}
+	
+	.features {			
+		
+		.col h4 {display:inline-block;padding:0px 30px;border-bottom:1px solid $orange;color:$orange;padding-bottom:10px;font-size:18px}
+		p {font-size:14px;margin-bottom:5px!important;color:#aaa}
+	}
+		
+	.hint {font-size:14px;margin-top:30px}
+	.hint p {margin-bottom:0px}
+	.label {color:#a9a9a9}
+	.text {color:#dadada}	
+	
+}
+
+.main.workshop-slience, .main.workshop-edu {
+	#slience .title {display:none}
+	.article > img {width:100%!important}
+	.features {
+		.article {padding-left:0px!important}
+	}
+}
+
+.main.workshop {
+	.features {		
+		h4 {text-align:center;display:block!important}
+	}
+	h1 {font-size:16px!important}
+	.sign {text-align: right;color:#aaa;font-size:14px}
+	.article {margin-left:0px!important}
+}
+
+.main.cooperate {
+	table {
+		& {width:100%;margin-top:30px}
+		td {vertical-align:middle;text-align:center;color:#aaa;padding:0px 5px}
+		tr.text td {min-height:60px;vertical-align:top!important;padding-top:10px;padding-bottom:10px;font-size:12px}
+		td > img {width:90%}
+		
+	}
+}
+
+.main #clients {
+	.article > p {display:inline-block;width:45%}
+}
+
+.main.join, .main.responsibility {
+	h3.sub {border:none!important;padding:0px!important}
+	p.secondary {margin-bottom:0px!important}
+}
+
+.main.contact {
+	.wx-qr {width:100%;display:inline-block;text-align:center}
+}
+
+.main.workshop-calendar {
+	select, .fc-button-content {color:#333}
+	.fc-widget-header {padding:10px 0px}
+}
+
+.main.about {
+	#story {
+		.article {padding-bottom:30px}
+	}
+	#global {
+		& {height:500px}
+		.article > div {left:0px!important}
+	}
+}
+
+.main.post {
+	h3.sub {border:none!important;padding:0px!important;text-align:center;display:block!important;font-size:24px}
+	p.post-date {text-align: center;color:#ccc!important;font-weight:normal;font-size:16px;margin-bottom:50px}
+	p {text-indent:28px}
 }

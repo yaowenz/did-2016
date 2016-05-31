@@ -1,9 +1,9 @@
 <div id="content">
 	<div class="main workshop">
 		<div class="section" id="first">
-			<div class="article" style="padding-left:50px">
+			<div class="article" style="">
 				<h1 class="orange" style="font-style:italic;font-size:22px">“这是我参加过最有影响力、最吸引人的团队组织活动，它开启了我的眼界与心灵。”</h1>
-				<p style="text-align: right;color:white;font-size:16px">—— 安联领袖年会代表 德国慕尼黑</p>
+				<p class="sign">—— 安联领袖年会代表 德国慕尼黑</p>
 				<p style="margin-top:30px">“黑暗中对话”关闭您的视觉，借此激发对人性多元化的崭新体验。</p>
 				<p>我们为企业，政府机构和组织开发了“黑暗中对话”工作坊这一培训课程，此工作坊的主要部分在完全漆黑的环境中进行，是极少数可以在短时间内改变参与者行为模式的体验式培训之一。参与者与我们的视障培训师之间进行强弱角色的转变，促使其必须适应突如其来的短暂“失明”，强迫自己谦卑、放慢步调、关注内心，真实地审视自己的核心价值观和潜力。</p>
 			</div>
