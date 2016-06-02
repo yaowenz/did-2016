@@ -66,12 +66,6 @@ p {
 /**
  * Header
  */
-#alter-menu {
-  display: none; }
-
-#primary-menu {
-  display: none; }
-
 #nav #logo-orange img {
   width: 100px;
   position: fixed;
@@ -109,96 +103,62 @@ p {
   line-height: 1.8; }
 
 /**
- * Primary Menu
+ *  Menu
  */
-#primary-menu, #alter-menu {
-  height: 160px;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 1; }
-
-#primary-menu {
-  background-color: rgba(0, 0, 0, 0.2); }
-
-#primary-menu .menu-buttons {
-  position: absolute;
-  right: 50px;
-  bottom: 0px; }
-
-#primary-menu .menu-buttons > .menu {
-  padding: 5px 0px;
-  border-radius: 5px 5px 0px 0px;
-  display: inline-block;
-  background-size: auto 70px;
-  background-image: url("images/nav-buttons.png");
-  background-repeat: no-repeat;
-  height: 70px;
-  width: 80px;
-  margin-right: 10px; }
-
-#primary-menu .menu-buttons > .menu:hover {
-  background-color: #323232;
-  cursor: pointer;
-  background-image: url("images/nav-buttons-active.png"); }
-
-#primary-menu .menu-buttons > .menu:hover .sub-menu {
-  display: block !important;
-  -webkit-animation: fadeIn 500ms 1 alternate;
-          animation: fadeIn 500ms 1 alternate; }
-
-#primary-menu .menu-buttons > .menu.homepage {
-  background-position: 5px; }
-
-#primary-menu .menu-buttons > .menu.stadium {
-  background-position: -112px; }
-
-#primary-menu .menu-buttons > .menu.workshop {
-  background-position: -232px; }
-
-#primary-menu .menu-buttons > .menu.events {
-  background-position: -367px; }
-
-#primary-menu .menu-buttons > .menu.cooperation {
-  background-position: -505px; }
-
-#primary-menu .menu-buttons > .menu.about {
-  background-position: -633px; }
-
-#primary-menu .menu-buttons .sub-menu {
-  padding: 20px 25px;
-  border-radius: 10px;
-  width: 680px;
-  top: 156px;
+#menu {
   position: fixed;
   right: 0px;
-  background: #323232;
-  z-index: 2000;
-  display: none; }
+  top: 0px;
+  z-index: 2050;
+  width: 100%; }
 
-#primary-menu .menu-buttons .sub-menu > div.list {
-  float: left; }
+#menu > .menu-icon {
+  position: absolute;
+  top: 20px;
+  right: 0px; }
 
-#primary-menu .menu-buttons .sub-menu > div.list ul {
-  font-size: 16px;
-  margin: 0px;
-  padding-left: 20px; }
+#menu .overlay {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); }
 
-#primary-menu .menu-buttons .sub-menu > div.list ul li {
-  line-height: 2.0; }
+#menu .menu-list {
+  background-color: #333;
+  position: absolute;
+  height: 100%;
+  width: 55%;
+  right: 0px;
+  top: 0px;
+  padding: 0px 0px 0px 15px; }
 
-#primary-menu .menu-buttons .sub-menu > div.list ul li:hover {
-  color: #BB9100;
-  cursor: pointer; }
+#menu .menu-list .title .menu-icon {
+  float: left;
+  width: 35px; }
 
-#primary-menu .menu-buttons .sub-menu p.brief {
-  font-size: 12px;
-  color: #ccc;
-  margin-top: 50px; }
+#menu .menu-list .title span {
+  line-height: 35px;
+  margin-left: 10px; }
 
-#primary-menu .menu-buttons .sub-menu > div.image {
-  float: right; }
+#menu .menu-list .title span:active, #menu .menu-list .title span:hover {
+  color: #999; }
+
+#menu .menu-list .title .reserve-ticket {
+  color: #d87c8e; }
+
+#menu .bar {
+  margin: 10px 0px;
+  font-size: 14px; }
+
+#menu .bar .sub {
+  color: #aaa;
+  padding-left: 45px;
+  line-height: 30px; }
+
+#menu .bar .sub > div:active, #menu .bar .sub > div:hover {
+  color: #666; }
 
 /**
  * Pages

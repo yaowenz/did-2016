@@ -43,8 +43,6 @@ p {line-height:1.6}
 /**
  * Header
  */
-#alter-menu {display:none}
-#primary-menu {display:none}
 
 #nav #logo-orange img {width:100px;position:fixed;left:30px;top:0px;z-index:2005}
 
@@ -65,45 +63,23 @@ p {line-height:1.6}
 }
 
 /**
- * Primary Menu
+ *  Menu
  */
-#primary-menu, #alter-menu {
-	& {height:160px;position:fixed;top:0px;left:0px;width:100%;z-index:1}
-}
-#primary-menu {
-	& {background-color:rgba(0,0,0,0.2)}
-	.menu-buttons {
-		& {position:absolute;right:50px;bottom:0px}
-		> .menu {
-			& {padding:5px 0px;border-radius:5px 5px 0px 0px;display:inline-block;background-size:auto 70px;background-image:url('images/nav-buttons.png'); background-repeat:no-repeat;height:70px;width:80px;margin-right:10px}
-			&:hover {background-color:#323232;cursor:pointer;background-image:url('images/nav-buttons-active.png')}			
-			&:hover .sub-menu {display:block!important;animation: fadeIn 500ms 1 alternate;}
-			&.homepage {background-position:5px}
-			&.stadium {background-position: -112px}			
-			&.workshop {background-position: -232px}
-			&.events {background-position: -367px}			
-			&.cooperation {background-position: -505px}
-			&.about {background-position: -633px}		
-		}		
-						
-		.sub-menu {
-			& {padding:20px 25px;border-radius:10px;width:680px;top:156px;position:fixed;right:0px;background:#323232;z-index:2000;display:none}
-			> div.list {
-				& {float:left}
-				ul {
-					& {font-size:16px;margin:0px;padding-left:20px}
-					li {line-height:2.0}
-					li:hover {color:#BB9100;cursor:pointer}
-				}				
-			}
-			
-			p.brief {font-size:12px;color:#ccc;margin-top:50px}
-									
-			> div.image {float:right}
-		}
+#menu {
+	& {position:fixed;right:0px;top:0px;z-index:2050;width:100%}
+	> .menu-icon {position:absolute;top:20px;right:0px}
+	.overlay {width:100%;position:absolute;top:0px;left:0px;height:100vh;background-color:rgba(0,0,0,0.8)}
+	.menu-list {background-color:#333;position:absolute;height:100%;width:55%;right:0px;top:0px;padding:0px 0px 0px 15px}
+	.menu-list .title {
+		.menu-icon {float:left;width:35px}
+		span {line-height:35px;margin-left:10px}
+		span:active, span:hover {color:#999}
+		.reserve-ticket {color:#d87c8e}
 	}
+	.bar {margin:10px 0px;font-size:14px}
+	.bar .sub {color:#aaa;padding-left:45px;line-height:30px}	
+	.bar .sub > div:active, .bar .sub > div:hover {color:#666}
 }
-
 
 /**
  * Pages
