@@ -23,8 +23,7 @@
 				<h2>深圳体验馆</h2>
 				<p class="text">作为华南区首家 “黑暗中对话” 体验馆，也被称为深圳「黑店」…… </p>
 				<p class="address">
-					· 福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）/ 0755-88917887 <br/>
-					· 周二至周日（周一闭馆）10：00~20：30
+					· 福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）/ 0755-88917887 / 周一闭馆
 				</p>
 				<div class="reserve-button"><a href="http://sz.wx.dialogue-in-the-dark.org.cn">在线订票</a></div>
 			</div>
@@ -35,8 +34,7 @@
 				<h2>成都体验馆</h2>
 				<p class="text">期待热爱自由、冒险的你加入这段黑暗旅程!</p>
 				<p class="address">
-					· 成都市锦江区滨江东路232号（靠近太古里）/ 028-62103889<br/>
-					· 周二至周四 10：00~18：00，周五至周日 10：00~20：00，   周一闭馆
+					· 成都市锦江区滨江东路232号（靠近太古里）/ 028-62103889 / 周一闭馆<br/>
 				</p>				
 				<div class="reserve-button"><a href="http://cd.wx.dialogue-in-the-dark.org.cn">在线订票</a></div>
 			</div>
@@ -52,8 +50,8 @@
 						<img src="<?php echo get_template_directory_uri()?>/images/index-workshop-corp.jpg" width="100%" />
 					</div>
 					<div class="title">					
-						<h2>企业工作坊</h2>
-						<h2 class="english">DID Workshop</h2>
+						<h2>黑暗中对话工作坊</h2>
+						<h2 class="english">Dialogue in the Dark Workshop</h2>
 						<p class="text">这是极少数可以在短时间内改变参与者行为模式的体验式培训之一...</p>
 					</div>					
 					<div class="clear"></div>				
@@ -62,7 +60,7 @@
 				<div class="product slience wrapper linkable" data-href="<?php echo site_url('workshop-slience')?>">
 					<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-slience.jpg" width="100%" /></div>
 					<div class="title">
-						<h2>无声中对话</h2>
+						<h2>无声中对话工作坊</h2>
 						<h2 class="english">Dialogue in the Slience Workshop</h2>
 						<p class="text">摆脱日常工作和社交的束缚，发觉自己非语言表达方面的技能。</p>
 					</div>
@@ -139,18 +137,8 @@
 	</div>
 	<!-- 合作伙伴 -->
 	<div id="topic-partners" class="topic section">
-		<div class="center-wrapper">
-			<div class="comments">
-				<div class="comment-1">
-					<img src="<?php echo get_template_directory_uri()?>/images/index-comment-1.png" />
-				</div>
-				<div class="comment-2">
-					<img src="<?php echo get_template_directory_uri()?>/images/index-comment-2.png" />
-				</div>
-				<div class="comment-3">
-					<img src="<?php echo get_template_directory_uri()?>/images/index-comment-3.png" />
-				</div>				
-			</div>
+		<div class="center-wrapper">	
+			<h2>合作伙伴</h2>		
 			<div class="brand-logos">
 				<table border="0" width="100%" align="center">							
 					<tr valign="middle">
@@ -252,20 +240,19 @@ jQuery(function($) {
 	// 体验馆切换
 	$('#topic-stadium .locator').tap(function() {	
 		var locator = this;
-		$('.locator.active').removeClass('active');
+		$('.locator').removeClass('active');
 		$(this).addClass('active');	
-		$('#topic-stadium .introduction.active').fadeOut(300, function() {
-			$(this).removeClass('active');
+		$('#topic-stadium .introduction.active').fadeOut(300, function() {			
 			$('#topic-stadium .introduction.' + $(locator).data('tab')).addClass('active');
 			$('#topic-stadium .introduction.' + $(locator).data('tab')).fadeIn(300);
 		});
-		//$('#topic-stadium .introduction.active').removeClass('active');		
+		$('#topic-stadium .introduction.active').removeClass('active');		
 	});
 
 	// 手动翻页
-	$('#arrow-down > img').tap(function() {		
-		$("#topics").moveDown();		
-	});
+// 	$('#arrow-down > img').tap(function() {		
+// 		$("#topics").moveDown();		
+// 	});
 
 	// tap link
 	$('.linkable').tap(function() {
