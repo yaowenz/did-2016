@@ -181,7 +181,7 @@ jQuery(function($) {
 
 	// booking window
 	$('.booking-goback').click(function() {
-		$('iframe.booking')[0].contentWindow.history.go(-1);
+		history.go(-1);
 	});
 	$('.booking.overlay .close').click(function() {
 		$('#nav').removeClass('hidden');
