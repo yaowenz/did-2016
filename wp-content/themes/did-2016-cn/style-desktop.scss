@@ -50,7 +50,7 @@ p {line-height:1.6}
  */
 #nav {z-index:2005;height:$nav-height;position:fixed;top:0px;left:0px}
 #nav #logo-orange, #nav #primary-menu .logo {position:absolute;left:5%}
-#primary-menu .logo {top:30px}
+#primary-menu .logo {top:15px}
 #primary-menu .logo > img {width:190px}
 #primary-menu a {text-decoration:none}
 
@@ -91,7 +91,8 @@ p {line-height:1.6}
 			&.homepage {background-position:10px}
 			&.stadium {background-position: -90px}			
 			&.workshop {background-position: -195px}
-			&.events {background-position: -310px}			
+			&.events {background-position: -310px}		
+			&.run {background-position: -657px}	
 			&.cooperation {background-position: -427px}
 			&.about {background-position: -540px}		
 		}		
@@ -427,4 +428,14 @@ img.slogan {width:230px;left:5%;position:fixed;top:200px}
 	h3.sub {border:none!important;padding:0px!important;text-align:center;display:block!important;font-size:24px}
 	p.post-date {text-align: center;color:#ccc!important;font-weight:normal;font-size:16px;margin-bottom:50px}
 	p {text-indent:28px}
+}
+
+.main.dark-runner {
+	.title-img {width:300px;text-align:center;display:block;margin:auto}
+	.article > img {display:block;margin:auto}
+}
+
+.main.team {
+	.sub {border:none!important;padding-left:0px!important}
+	img.avatar {float:right;margin:25px 0px 15px 25px}	
 }

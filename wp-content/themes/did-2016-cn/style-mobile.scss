@@ -20,6 +20,10 @@ h1 {font-size:24px}
 /**
  * Animations
  */
+#menu .animated {
+	animation-duration: 0.5s!important
+}
+
 @keyframes fadeIn {
   0% { opacity: 0 }
   100% { opacity: 1 }
@@ -115,7 +119,7 @@ p {line-height:1.6}
 		.locator {cursor:pointer;position:absolute;background-size:auto 100%;background-repeat:no-repeat;background-image:url('images/index-map-locator.png');height:56px;width:60px}
 		.locator {
 			&:hover, &.active {background-image:url('images/index-map-locator-active.png')}
-			&.shanghai {top:360px;right:150px;background-position:-163px 0px}
+			&.shanghai {top:50%;left:59%;background-position:-120px 0px}
 			&.shenzhen {top:68%;right:42%;background-position:-176px 0px}
 			&.chengdu {top:45%;left:18%;background-position:-62px 0px}
 			&.beijing {top:230px;right:230px;background-position:-8px 0px}
@@ -345,4 +349,14 @@ img.slogan {display:none}
 	h3.sub {border:none!important;padding:0px!important;text-align:center;display:block!important;font-size:24px}
 	p.post-date {text-align: center;color:#ccc!important;font-weight:normal;font-size:16px;margin-bottom:50px}
 	p {text-indent:28px}
+}
+
+.main.dark-runner {
+	.title-img {margin:auto;width:80%;text-align:center;display:block}
+	.article > img {width:100%}
+}
+
+.main.team {
+	.sub {border:none!important;text-align:center;width:100%}
+	.avatar {display:block;margin:auto;margin-bottom:30px}	
 }

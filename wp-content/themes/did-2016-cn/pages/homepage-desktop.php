@@ -17,28 +17,25 @@
 	<!-- 体验馆 -->
 	<div id="topic-stadium" class="topic">
 		<div class="map">
-			<!-- <div class="locator shanghai" data-tab="shanghai"></div> -->
+			 <div class="locator shanghai" data-tab="shanghai"></div>
 			<!-- <div class="locator beijing" data-tab="beijing"></div> -->
 			<div class="locator shenzhen active" data-tab="shenzhen"></div>
 			<div class="locator chengdu" data-tab="chengdu"></div>
 		</div>
-		<!-- 上海 -->
-		<!-- 
-		<div class="introduction shanghai" style="display:block">
+		<!-- 上海 -->		
+		<div class="introduction shanghai">
 			<div class="image">
-				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" />
+				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sh.jpg" width="100%" />
 			</div>
 			<div class="text">
-				<h2>上海体验馆</h2>
-				<p class="text">“黑暗中对话”体验发生在完全黑暗的环境中。期待热爱自由、冒险的你加入这段黑暗旅程。75分钟的旅程中，一位“导赏员”将带领不超过八人的团队，以一个全新的角度欣赏这个世界。听觉、嗅觉、味觉、触觉，黑暗中这些熟悉的感官将会代替视觉，帮助您在黑暗中“看见”更多，准备好重新发掘世界的不同了吗？快来体验吧，在这里黑暗将带给你们从未有过的惊喜！</p>
+				<h2>上海培训中心</h2>
+				<p class="text">我们为企业，政府机构和组织开发了“黑暗中对话”工作坊这一培训课程，此工作坊的主要部分在完全漆黑的环境中进行，是极少数可以在短时间内改变参与者行为模式的体验式培训之一。</p>
 				<p class="address">
-					·地址：成都市锦江区滨江东路232号（靠近太古里）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					·预约电话：（+86）28-62103889
+					· 上海市虹口区四平路494弄12号B104室&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;021-6302 0090
 				</p>
-				<div class="reserve-button">在线订票</div>
+				<!-- <div class="reserve-button">在线订票</div> -->
 			</div>
-		</div>	
-		 -->
+		</div>			
 		<!-- 深圳 -->
 		<div class="introduction shenzhen active" style="display:block">
 			<div class="image"><img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" /></div>
@@ -63,7 +60,7 @@
 				<p class="address">
 					· 成都市锦江区滨江东路232号（靠近太古里）&nbsp;/&nbsp;028-62103889
 				</p>
-				<p class="address" style="margin-top:5px">· 周二至周四 10：00~18：00，周五至周日 10：00~20：00，   周一闭馆。</p>						>
+				<p class="address" style="margin-top:5px">· 周二至周四 10：00~18：00，周五至周日 10：00~20：00，   周一闭馆。</p>
 			</div>
 		</div>	
 	</div>

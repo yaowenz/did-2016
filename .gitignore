@@ -2,3 +2,4 @@
 .project
 wp-config.php
 .settings/
+wp-content/uploads/

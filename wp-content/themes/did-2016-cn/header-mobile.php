@@ -36,6 +36,12 @@
 					<span>特别活动</span>			
 				</div>
 			</div>
+			<div class="bar" data-href="<?php echo site_url('run')?>">
+				<div class="title">
+					<img class="menu-icon" src="<?php echo get_template_directory_uri();?>/images/mobile/icon-run.png" />
+					<span>黑暗跑团</span>			
+				</div>
+			</div>
 			<div class="bar" data-href="<?php echo site_url('cooperation')?>">
 				<div class="title">
 					<img class="menu-icon" src="<?php echo get_template_directory_uri();?>/images/mobile/icon-cooperation.png" />
@@ -49,6 +55,7 @@
 				</div>
 				<div class="sub hidden">
 					<div data-href="<?php echo site_url('about')?>">品牌故事</div>
+					<div data-href="<?php echo site_url('team')?>">团队成员</div>							
 					<div data-href="<?php echo site_url('responsibility')?>">社会责任</div>
 					<div data-href="<?php echo site_url('contact')?>">联系我们</div>
 					<div data-href="<?php echo site_url('join')?>">加入我们</div>					

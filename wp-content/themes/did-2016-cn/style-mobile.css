@@ -19,11 +19,16 @@ h1 {
 /**
  * Animations
  */
+#menu .animated {
+  -webkit-animation-duration: 0.5s !important;
+          animation-duration: 0.5s !important; }
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -274,9 +279,9 @@ p {
   background-image: url("images/index-map-locator-active.png"); }
 
 #topic-stadium .map .locator.shanghai {
-  top: 360px;
-  right: 150px;
-  background-position: -163px 0px; }
+  top: 50%;
+  left: 59%;
+  background-position: -120px 0px; }
 
 #topic-stadium .map .locator.shenzhen {
   top: 68%;
@@ -804,3 +809,22 @@ img.slogan {
 
 .main.post p {
   text-indent: 28px; }
+
+.main.dark-runner .title-img {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  display: block; }
+
+.main.dark-runner .article > img {
+  width: 100%; }
+
+.main.team .sub {
+  border: none !important;
+  text-align: center;
+  width: 100%; }
+
+.main.team .avatar {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px; }

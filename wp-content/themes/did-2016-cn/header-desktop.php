@@ -15,6 +15,7 @@
 			<div class="homepage menu">
 				<a href="<?php echo site_url()?>">&nbsp;</a>
 			</div>
+			<!-- Staidums -->
 			<div class="stadium menu">
 				<a href="<?php echo site_url('stadium')?>">&nbsp;</a>
 				<div class="sub-menu">
@@ -30,6 +31,7 @@
 					</div>
 				</div>
 			</div>
+			<!-- Workshops -->
 			<div class="workshop menu">
 				<a href="<?php echo site_url('workshop')?>">&nbsp;</a>
 				<div class="sub-menu">
@@ -65,6 +67,10 @@
 					</div>
 				</div>
 			</div>
+			<!-- 黑暗跑团 -->
+			<div class="run menu">
+				<a href="<?php echo site_url('run')?>">&nbsp;</a>				
+			</div>
 			<!-- 品牌合作 -->
 			<div class="cooperation menu">
 				<a href="<?php echo site_url('cooperation')?>">&nbsp;</a>
@@ -87,6 +93,7 @@
 					<div class="list">
 						<ul>
 							<li><a href="<?php echo site_url('about')?>">品牌故事</a></li>	
+							<li><a href="<?php echo site_url('team')?>">团队成员</a></li>
 							<li><a href="<?php echo site_url('responsibility')?>">社会责任</a></li>						
 							<li><a href="<?php echo site_url('contact')?>">联系我们</a></li>							
 							<li><a href="<?php echo site_url('join')?>">加入我们</a></li>

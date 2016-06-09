@@ -229,3 +229,4 @@ function did_2016_post_thumbnail_sizes_attr( $attr, $attachment, $size ) {
 }
 add_filter( 'wp_get_attachment_image_attributes', 'did_2016_post_thumbnail_sizes_attr', 10 , 3 );
 
+remove_filter (  'the_content' ,  'wpautop'  );
