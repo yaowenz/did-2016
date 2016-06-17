@@ -195,11 +195,11 @@ jQuery(function($) {
 		$('.booking.overlay').addClass('hidden');
 	});
 	
-	$('.booking.button').click(function() {
-		return false;
+	$('.booking.button').click(function() {		
 		$('#nav').addClass('hidden');
 		$('.booking.overlay').removeClass('hidden');		
 		$('iframe.booking').attr('src', $('iframe.booking').attr('ori')); 
+		return false;
 	});
 
 	// news list
