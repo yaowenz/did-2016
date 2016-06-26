@@ -27,11 +27,11 @@
 				<h3 class="sub">中国大陆</h3>
 				<table width="100%">
 					<tr>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-1.png" /></td>
+						<td style="color:white;font-size:24px">成都锦江区残联</td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-2.png" /></td>
 					</tr>
 					<tr class="text">
-						<td>赞助上海体验馆场地</td>
+						<td>提供成都体验馆场地</td>
 						<td>赞助“黑暗中对话视障公益学院”第一期80名学员培训</td>
 					</tr>
 					<tr>
