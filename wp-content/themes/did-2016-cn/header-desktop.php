@@ -22,7 +22,7 @@
 					<div class="list">
 						<ul>
 							<li><a href="<?php echo site_url('stadium')?>">黑暗中对话体验馆</a></li>
-							<li>在线购票</li>							
+							<li class="button booking">在线购票</li>							
 						</ul>
 						<p class="brief">关闭您的视觉，颠覆您的感官</p>					
 					</div>
@@ -159,32 +159,59 @@
 </div>
 <script type="text/javascript">
 var primaryMenuShow = false;
+var primaryMenuForceShow = false;
 jQuery(function($) {	
+
+	function showPrimaryMenu() {
+		primaryMenuShow = true;
+		$('#alter-menu').fadeOut(300);
+		$('#primary-menu').fadeIn(300);
+	}
+
+	function hidePrimaryMenu() {
+		primaryMenuShow = false;
+		setTimeout(function() {
+			if(!primaryMenuShow) {
+				$('#alter-menu').fadeIn(300);
+				$('#primary-menu').fadeOut(300);
+			}
+		}, 500);
+	}
+	
 	// 菜单切换
 	$('#alter-menu').hover(
 		function() {
-			primaryMenuShow = true;
-			$('#alter-menu').fadeOut(300);
-			$('#primary-menu').fadeIn(300);
+			showPrimaryMenu();
 		},
 		function () {}
 	);
 	
-	$('#primary-menu').hover(
+	$('#primary-menu').hover(			
 		function() {
 			primaryMenuShow = true;
 		},
 		function() {
-			primaryMenuShow = false;
-			setTimeout(function() {
-				if(!primaryMenuShow) {
-					$('#alter-menu').fadeIn(300);
-					$('#primary-menu').fadeOut(300);
-				}
-			}, 500);
-			
+			if (!primaryMenuForceShow) {
+				hidePrimaryMenu();
+			}
 		}
 	);
+
+	// 随窗口向下滚动时显示菜单
+	$(window).scroll(function(e) {
+		if($(window).scrollTop() > $(window).height()) {			
+			primaryMenuForceShow = true;
+			if (!primaryMenuShow) {
+				showPrimaryMenu();
+			}
+		}
+		else {
+			if($(window).scrollTop() == 0) {
+				hidePrimaryMenu();
+			}
+			primaryMenuForceShow = false;
+		}
+	});
 
 	// booking window
 	$('.booking-goback').click(function() {

@@ -28,19 +28,16 @@
 				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sh.jpg" width="100%" />
 			</div>
 			<div class="text">
-				<h2>上海培训中心</h2>
-				<p class="text">我们为企业，政府机构和组织开发了“黑暗中对话”工作坊这一培训课程，此工作坊的主要部分在完全漆黑的环境中进行，是极少数可以在短时间内改变参与者行为模式的体验式培训之一。</p>
-				<p class="address">
-					· 上海市虹口区四平路494弄12号B104室&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;021-6302 0090
-				</p>
-				<!-- <div class="reserve-button">在线订票</div> -->
+				<h2>上海体验馆<div class="reserve-button booking button">在线订票</div></h2>
+				<p class="text">“黑暗中对话”上海馆，中国大陆地区旗舰馆，由2011年开幕的黑暗中对话上海体验中心升级， 地处上海市中心黄浦滨江，绿地万豪和海外滩商业中心裙楼。上海作为中国的第一站，已经积累了两百多500强企业客户，体验馆更是融合成都、深圳体验馆优势，，让体验者用其他感官特别是心灵来感受黑暗世界带来的超视觉体验，更为企业带去更多的团建和市场推广新方式。</p>
+				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>	
 			</div>
 		</div>			
 		<!-- 深圳 -->
 		<div class="introduction shenzhen active" style="display:block">
 			<div class="image"><img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" /></div>
 			<div class="text">
-				<h2>深圳体验馆<div class="reserve-button">在线订票</div></h2>
+				<h2>深圳体验馆<div class="reserve-button booking button">在线订票</div></h2>
 				<p class="text">作为华南区首家 “黑暗中对话” 体验馆，除了传统项目以外，还创新地推出了黑暗约会、黑暗酒会、黑暗中身体作画、黑暗美食品鉴、隐形任务等系列活动，因此也被称为深圳「黑店」。在不同行业中也能看见 “黑店” 的影子，与WWF “地球一小时” 联合推出「黑暗大使」活动，携手中国（深圳）女子马拉松推出「黑暗奔跑」…… </p>
 				<p class="address">
 					· 福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）&nbsp;/&nbsp;0755-88917887
@@ -55,7 +52,7 @@
 				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-cd.jpg" width="100%" />
 			</div>
 			<div class="text">
-				<h2>成都体验馆<div class="reserve-button">在线订票</div></h2>
+				<h2>成都体验馆<div class="reserve-button booking button">在线订票</div></h2>
 				<p class="text">“黑暗中对话” 成都馆地处太古里商业圈，市中心繁华地带，交通便利，紧邻春熙路地铁口。作为中国大陆首家 “黑暗中对话” 体验馆，除了 “黑暗之旅” 与 “企业工作坊” 项目以外，还创新地推出了暗中音乐会、暗中夜宴，暗中生日趴、黑暗舞者等系列活动。</p>
 				<p class="address">
 					· 成都市锦江区滨江东路232号（靠近太古里）&nbsp;/&nbsp;028-62103889

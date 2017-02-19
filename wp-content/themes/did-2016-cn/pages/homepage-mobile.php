@@ -131,7 +131,7 @@
 			<div class="missions">
 				<div class="mission mission-1">
 					<img src="<?php echo get_template_directory_uri()?>/images/index-mission-1.png" />
-					<p>消促进社会的平等包容</p>
+					<p>促进社会的平等包容</p>
 				</div>
 				<div class="mission mission-2">
 					<img src="<?php echo get_template_directory_uri()?>/images/index-mission-2.png" />

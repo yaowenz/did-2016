@@ -23,6 +23,48 @@
 			</div>
 			<div class="clear"></div>
 		</div>
+		<!-- SH -->
+		<div class="section" id="trip-chengdu">
+			<div class="title single">上海</div>
+			<div class="article">
+				<p>“黑暗中对话”上海馆，中国大陆地区旗舰馆，由2011年开幕的黑暗中对话上海体验中心升级， 地处上海市中心黄浦滨江，绿地万豪和海外滩商业中心裙楼。</p>
+				<p>上海作为中国的第一站，已经积累了两百多500强企业客户，体验馆更是融合成都、深圳体验馆优势，除“黑暗之旅”和 “企业工作坊”之外，提供各类团建如“隐形任务”，各行业的跨界活动如：“暗中咖啡”，“暗中音乐之旅”，”暗中品酒会”，“暗中生日派对”，“暗中圣诞趴”，“暗中戏剧”等，并为各大品牌提供黑暗中的特别展示空间，让体验者用其他感官特别是心灵来感受黑暗世界带来的超视觉体验，更为企业带去更多的团建和市场推广新方式。 </p>
+				<img src="<?php echo get_template_directory_uri()?>/images/pages/stadium-sh.jpg" width="100%" />
+				<h3>体验价格</h3>
+				<table width="100%" class="price">
+					<thead>
+						<tr>
+							<td width="20%"></td>
+							<td width="40%">周二 ~ 周五</td>
+							<td width="40%">周六、周日及公众假期</td>					
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>成人</td>
+							<td>￥120元/人</td>
+							<td>￥150元/人</td>					
+						</tr>					
+						<tr>
+							<td>12岁以下青少年</td>
+							<td>￥60元/人</td>
+							<td>￥75元/人</td>					
+						</tr>
+						<tr>
+							<td>70岁以上老人</td>
+							<td>￥60元/人</td>
+							<td>￥75元/人</td>					
+						</tr>
+					</tbody>
+				</table>
+				<div class="hint">					
+					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与</span></p>    
+					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
+					<p><span class="text">*视障者及其他特殊人群需有人陪同方能进入，本人免费，陪同者需支付费体验。</span></p>    
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
 		<!-- CD -->
 		<div class="section" id="trip-chengdu">
 			<div class="title single">成都</div>
@@ -53,13 +95,13 @@
 						</tr>
 						<tr>
 							<td>18岁以下青少年</td>
-							<td>￥50元/人</td>
-							<td>￥60元/人</td>					
+							<td>￥80元/人</td>
+							<td>￥96元/人</td>					
 						</tr>
 						<tr>
 							<td>60岁以上老人</td>
-							<td>￥50元/人</td>
-							<td>￥60元/人</td>					
+							<td>￥80元/人</td>
+							<td>￥96元/人</td>					
 						</tr>
 					</tbody>
 				</table>
