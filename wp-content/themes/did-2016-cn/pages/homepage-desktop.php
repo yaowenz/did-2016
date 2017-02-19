@@ -17,24 +17,24 @@
 	<!-- 体验馆 -->
 	<div id="topic-stadium" class="topic">
 		<div class="map">
-			 <div class="locator shanghai" data-tab="shanghai"></div>
+			 <div class="locator shanghai active" data-tab="shanghai"></div>
 			<!-- <div class="locator beijing" data-tab="beijing"></div> -->
-			<div class="locator shenzhen active" data-tab="shenzhen"></div>
+			<div class="locator shenzhen" data-tab="shenzhen"></div>
 			<div class="locator chengdu" data-tab="chengdu"></div>
 		</div>
 		<!-- 上海 -->		
-		<div class="introduction shanghai">
+		<div class="introduction shanghai active" style="display:block">
 			<div class="image">
 				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sh.jpg" width="100%" />
 			</div>
 			<div class="text">
 				<h2>上海体验馆<div class="reserve-button booking button">在线订票</div></h2>
-				<p class="text">“黑暗中对话”上海馆，中国大陆地区旗舰馆，由2011年开幕的黑暗中对话上海体验中心升级， 地处上海市中心黄浦滨江，绿地万豪和海外滩商业中心裙楼。上海作为中国的第一站，已经积累了两百多500强企业客户，体验馆更是融合成都、深圳体验馆优势，，让体验者用其他感官特别是心灵来感受黑暗世界带来的超视觉体验，更为企业带去更多的团建和市场推广新方式。</p>
+				<p class="text">“黑暗中对话”上海馆，中国大陆地区旗舰馆，由2011年开幕的黑暗中对话上海体验中心升级， 地处上海市中心黄浦滨江，绿地万豪和海外滩商业中心裙楼。上海作为中国的第一站，已经积累了两百多500强企业客户，体验馆更是融合成都、深圳体验馆优势，让体验者用其他感官特别是心灵来感受黑暗世界带来的超视觉体验，更为企业带去更多的团建和市场推广新方式。</p>
 				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>	
 			</div>
 		</div>			
 		<!-- 深圳 -->
-		<div class="introduction shenzhen active" style="display:block">
+		<div class="introduction shenzhen">
 			<div class="image"><img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" /></div>
 			<div class="text">
 				<h2>深圳体验馆<div class="reserve-button booking button">在线订票</div></h2>

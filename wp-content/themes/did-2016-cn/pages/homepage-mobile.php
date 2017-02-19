@@ -12,20 +12,21 @@
 	<div id="topic-stadium" class="topic section">
 		<h1>走进黑暗之旅...</h1>
 		<div class="map">
-			<div class="locator shanghai" data-tab="shanghai"></div>
+			<div class="locator shanghai active" data-tab="shanghai"></div>
 			<!-- <div class="locator beijing" data-tab="beijing"></div> -->
-			<div class="locator shenzhen active" data-tab="shenzhen"></div>
+			<div class="locator shenzhen" data-tab="shenzhen"></div>
 			<div class="locator chengdu" data-tab="chengdu"></div>
 		</div>		
 		<!-- 上海 -->		
 		<div class="introduction shanghai">		
 			<div class="text">
-				<h2>上海培训中心</h2>
-				<p class="text">我们为企业，政府机构和组织开发了“黑暗中对话”工作坊这一课程，是极少数可以在短时间内改变参与者行为模式的体验式培训之一。</p>
+				<h2>上海体验馆</h2>
+				<p class="text">作为中国第一站，体验馆融合了成都、深圳的优势，为企业带去更多的团建新方式……</p>
+				<!-- 
 				<p class="address">
 					· 上海市虹口区四平路494弄12号B104室/ 021-63020090
 				</p>
-				<!-- <div class="reserve-button">在线订票</div> -->
+				 -->
 			</div>
 		</div>			
 		<!-- 深圳 -->
@@ -226,8 +227,8 @@ jQuery(function($) {
 					$('#topic-stadium .map').fadeIn(300);				
 				}, 300);	
 				setTimeout(function() {
-					$('#topic-stadium .introduction.shenzhen').fadeIn(300);
-					$('#topic-stadium .introduction.shenzhen').addClass('active');
+					$('#topic-stadium .introduction.shanghai').fadeIn(300);
+					$('#topic-stadium .introduction.shanghai').addClass('active');
 				}, 700);
 			}
 			// 工作坊

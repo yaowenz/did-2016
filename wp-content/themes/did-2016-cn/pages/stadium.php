@@ -1,6 +1,7 @@
 <div id="secondary-nav">
 	<ul>
 		<li><a href="#trip">黑暗旅程</a></li>
+		<li><a href="#trip-sh">上海体验馆</a></li>
 		<li><a href="#trip-chengdu">成都体验馆</a></li>
 		<li><a href="#trip-shenzhen">深圳体验馆</a></li>
 	</ul>
@@ -24,7 +25,7 @@
 			<div class="clear"></div>
 		</div>
 		<!-- SH -->
-		<div class="section" id="trip-chengdu">
+		<div class="section" id="trip-sh">
 			<div class="title single">上海</div>
 			<div class="article">
 				<p>“黑暗中对话”上海馆，中国大陆地区旗舰馆，由2011年开幕的黑暗中对话上海体验中心升级， 地处上海市中心黄浦滨江，绿地万豪和海外滩商业中心裙楼。</p>
