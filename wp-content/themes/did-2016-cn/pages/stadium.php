@@ -61,6 +61,7 @@
 				<div class="hint">					
 					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与</span></p>    
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
+					<p><span class="label">地址：</span><span class="text">上海市黄浦区龙华东路858号2-103（绿地海外滩中央广场）</span></p>
 					<p><span class="text">*视障者及其他特殊人群需有人陪同方能进入，本人免费，陪同者需支付费体验。</span></p>    
 				</div>
 			</div>
