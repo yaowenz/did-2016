@@ -11,7 +11,7 @@
 			<div class="title">上海</div>
 			<div class="article">
 				<h3 class="orange">黑暗中对话（中国）社会企业 </h3>
-				<p class="tight">上海市虹口区四平路494弄12号B104室</p>
+				<p class="tight">上海市黄浦区江滨路99号绿地海外滩广场2-103室</p>
 				<p class="tight">O: 021 - 6302 0090</p>
 				<p class="tight">M: 189 6499 9792</p>
 				<p>E: info@dialogue-in-the-dark.org.cn</p>

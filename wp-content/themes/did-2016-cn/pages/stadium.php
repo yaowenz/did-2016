@@ -36,8 +36,8 @@
 					<thead>
 						<tr>
 							<td width="20%"></td>
-							<td width="40%">周二 ~ 周五</td>
-							<td width="40%">周六、周日及公众假期</td>					
+							<td width="40%">热门时段<br/>（工作日18点后及周末、节假日）</td>
+							<td width="40%">非热门时段<br/>（工作日18点前）</td>					
 						</tr>
 					</thead>
 					<tbody>
@@ -45,23 +45,13 @@
 							<td>成人</td>
 							<td>￥120元/人</td>
 							<td>￥150元/人</td>					
-						</tr>					
-						<tr>
-							<td>12岁以下青少年</td>
-							<td>￥60元/人</td>
-							<td>￥75元/人</td>					
-						</tr>
-						<tr>
-							<td>70岁以上老人</td>
-							<td>￥60元/人</td>
-							<td>￥75元/人</td>					
 						</tr>
 					</tbody>
 				</table>
 				<div class="hint">					
-					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与</span></p>    
+					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与；周一闭馆。</span></p>    
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
-					<p><span class="label">地址：</span><span class="text">上海市黄浦区龙华东路858号2-103（绿地海外滩中央广场）</span></p>
+					<p><span class="label">地址：</span><span class="text">上海市黄浦区江滨路99号绿地海外滩广场2-103室</span></p>
 					<p><span class="text">*视障者及其他特殊人群需有人陪同方能进入，本人免费，陪同者需支付费体验。</span></p>    
 				</div>
 			</div>
