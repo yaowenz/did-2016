@@ -9,7 +9,7 @@
 		</div>
 		<div class="copyright">
 			<div style="width:300px;margin:auto">				
-				<div style="float:left;width:100px;text-align:center">
+				<div style="float:left;width:80px;text-align:center">
 					<p style="margin:10px 0px"><a href="http://www.dialogue-se.com/"><img src="<?php echo get_template_directory_uri()?>/images/didse.png" width="60" /></a></p>
 				</div>
 				<div style="float:left;text-align:left;font-size:10px;width:200px;color:#999">
