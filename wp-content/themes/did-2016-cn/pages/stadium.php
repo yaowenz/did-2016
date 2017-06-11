@@ -43,8 +43,8 @@
 					<tbody>
 						<tr>
 							<td>成人</td>
-							<td>￥120元/人</td>
-							<td>￥150元/人</td>					
+							<td>￥150元/人</td>
+							<td>￥120元/人</td>					
 						</tr>
 					</tbody>
 				</table>

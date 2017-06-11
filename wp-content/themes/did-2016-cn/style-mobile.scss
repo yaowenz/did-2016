@@ -60,10 +60,8 @@ p {line-height:1.6}
  * Footer
  */
 .copyright {
-	& {font-size:12px;color:#ccc;display:none}
-	a {color:#ccc!important}
-	a:hover {text-decoration:underline}
-	p {line-height:1.8}	
+	& {dislpay:none}
+	
 }
 
 /**
@@ -109,6 +107,9 @@ p {line-height:1.6}
 	.propaganda { position:absolute;z-index:2001;left:20%;top:30%;width:75% }
 	.propaganda > div {animation: fadeIn 1s 1;display:none}
 	.propaganda .line-2 { margin-top:5px;margin-left:12%}
+	.copyright {
+		& {display:block;position:absolute;bottom:10px}
+	}
 	
 }
 

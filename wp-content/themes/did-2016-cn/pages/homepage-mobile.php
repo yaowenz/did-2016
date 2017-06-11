@@ -6,7 +6,15 @@
 		<div class="propaganda">
 			<div class="line-1"><img src="<?php echo get_template_directory_uri()?>/images/index-1-text-mobile.png" width="100%" /></div>
 			<div class="line-2"><img src="<?php echo get_template_directory_uri()?>/images/index-2-text.png" width="80%" /></div>	
-		</div>	
+		</div>
+		<div class="copyright">				
+			<div style="float:left;width:100px;text-align:center">
+				<p style="margin:10px 0px"><a href="http://www.dialogue-se.com/"><img src="<?php echo get_template_directory_uri()?>/images/didse.png" width="60" /></a></p>
+			</div>
+			<div style="float:left;text-align:left;font-size:10px;width:200px;color:#999">
+				<p>Dialogue in the Dark、Dialogue in Silence、Dialogue with time是DSE的注册商标；黑暗中对话、无声中对话、时间对话概念及相关商标版权属于德国对话社会企业</p>
+			</div>
+		</div>
 	</div>
 	<!-- 体验馆 -->
 	<div id="topic-stadium" class="topic section">
@@ -23,7 +31,7 @@
 				<h2>上海体验馆</h2>
 				<p class="text">作为中国第一站，体验馆融合了成都、深圳的优势，为企业带去更多的团建新方式……</p>				
 				<p class="address">
-					· 上海市黄浦区龙华东路858号2-103（绿地海外滩中央广场）
+					· 上海市黄浦区江滨路99号绿地海外滩广场2-103室
 				</p>				
 			</div>
 		</div>			

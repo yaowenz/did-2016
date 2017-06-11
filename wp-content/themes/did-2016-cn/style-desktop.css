@@ -333,7 +333,8 @@ p {
   width: 100%; }
 
 #arrow-down {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: center;
   bottom: 15px;
   position: fixed;
@@ -597,7 +598,8 @@ p {
   float: left;
   position: relative;
   background-color: #616161;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 #topic-events .row .cell.pic img {
   width: 100%;
