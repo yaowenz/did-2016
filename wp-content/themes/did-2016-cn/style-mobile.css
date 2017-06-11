@@ -94,7 +94,7 @@ p {
  * Footer
  */
 .copyright {
-  dislpay: none; }
+  display: none; }
 
 /**
  *  Menu
@@ -595,10 +595,11 @@ img.slogan {
   background-attachment: fixed; }
 
 .content.copyright {
-  pwidth: 100%;
+  width: 100%;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: none; }
 
 #content > .wrapper {
   width: 100%; }
