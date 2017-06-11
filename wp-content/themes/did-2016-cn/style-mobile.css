@@ -235,7 +235,8 @@ p {
 #topic-home .copyright {
   display: block;
   position: absolute;
-  bottom: 10px; }
+  bottom: 10px;
+  width: 100%; }
 
 #topic-stadium h1 {
   text-align: right;
