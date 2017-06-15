@@ -41,7 +41,7 @@
 						<p>· 人数： <span class="text">每场8-40人</span></p>
 						<p>· 时间： <span class="text">标准工作坊3小时，定制工作坊1-3天</span></p>
 						<p>· 地点： <span class="text">光房，每场20人左右最佳,也可具体协调。</p>
-						<p>· 费用：<span class="text">3小时标准定制工作坊：16000RMB/21000RMB(中/英文，含税，不包括场地及差旅费用)</span></p>
+						<p>· 费用：<span class="text">3小时标准定制工作坊：16000RMB/21000RMB(中/英文，不含税，不包括场地及差旅费用)</span></p>
 	  				</div>
 				</div>
 				<div class="clear"></div>

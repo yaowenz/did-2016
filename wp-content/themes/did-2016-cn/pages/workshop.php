@@ -46,8 +46,8 @@
 						<p>· 人数： <span class="text">12 人以上 （单场上限不超过27人）</span></p>
 						<p>· 时间： <span class="text">标准定制工作坊4小时(根据需求3小时－3天(面议)</span></p>
 						<p>· 收费标准：</p>
-						<p><span class="text">－4小时标准定制工作坊：32,000RMB / 37,000RMB（中／英文，含税，不包括场地及差旅费用）</span></p>
-						<p><span class="text">－3小时简化版工作坊：28,000RMB / 33000RMB（中／英文，含税，不包括场地及差旅费用）</span></p>
+						<p><span class="text">－4小时标准定制工作坊：32,000RMB / 37,000RMB（中／英文，不含税，不包括场地及差旅费用）</span></p>
+						<p><span class="text">－3小时简化版工作坊：28,000RMB / 33000RMB（中／英文，不含税，不包括场地及差旅费用）</span></p>
 						<p>· 地点： <span class="text">特设暗房</span></p>	 					
 					</div>
 				</div>

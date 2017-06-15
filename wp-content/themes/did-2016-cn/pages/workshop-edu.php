@@ -39,7 +39,7 @@
 						<p>· 人数： <span class="text">每场25人最佳</span></p>
 						<p>· 时间： <span class="text">标准工作坊3小时，定制工作坊1-3天</span></p>
 						<p>· 地点： <span class="text">特设暗房 </p>
-						<p>· 费用：<span class="text">3小时标准定制工作坊：10000RMB/15000RMB(中/英文，含税，不包括场地及差旅费用)</span></p>
+						<p>· 费用：<span class="text">3小时标准定制工作坊：10000RMB/15000RMB(中/英文，不含税，不包括场地及差旅费用)</span></p>
 	  				</div>
 				</div>
 				<div class="clear"></div>
