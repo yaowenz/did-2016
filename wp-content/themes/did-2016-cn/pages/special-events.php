@@ -1,6 +1,6 @@
 <div id="secondary-nav">
 	<ul>
-		<li><a href="#coffee">暗中咖啡</a></li>
+		<!-- <li><a href="#coffee">暗中咖啡</a></li> -->
 		<li><a href="#adventure">暗中探险</a></li>
 		<li><a href="#party">暗中派对</a></li>
 		<li><a href="#music">暗中音乐会</a></li>
@@ -10,6 +10,7 @@
 </div>
 <div id="content">
 	<div class="main">
+		<!--
 		<div class="section" id="coffee">
 			<div class="title">暗中咖啡</div>
 			<div class="article">
@@ -20,6 +21,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
+		-->
 		<div class="section" id="adventure">
 			<div class="title">暗中探险</div>
 			<div class="article">
@@ -29,7 +31,7 @@
 				<img src="<?php echo get_template_directory_uri()?>/images/pages/events-5.jpg" width="100%" />
 			</div>
 			<div class="clear"></div>
-		</div>
+		</div>		
 		<div class="section" id="party">
 			<div class="title">暗中派对</div>
 			<div class="article">

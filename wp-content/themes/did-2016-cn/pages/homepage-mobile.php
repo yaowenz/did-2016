@@ -105,10 +105,12 @@
 		<div class="center-wrapper">
 			<div class="events-wrapper">
 				<div class="row">
-					<div class="cell coffee text linkable" data-href="<?php echo site_url('special-events#coffee')?>">						
+					<!-- 		
+					<div class="cell coffee text linkable" data-href="<?php echo site_url('special-events#coffee')?>">
 						<h2>暗中咖啡</h2>
 						<p>也许你喝过九十九种不同的咖啡，却独缺黑暗里的这一杯。</p>
-					</div>					
+					</div>
+					-->				
 					<div class="cell dinner text linkable" data-href="<?php echo site_url('special-events#dinner')?>">
 						<h2>暗中夜宴</h2>
 						<p>抛弃视觉，仅用味觉、嗅觉与触觉用心感受食物。</p>

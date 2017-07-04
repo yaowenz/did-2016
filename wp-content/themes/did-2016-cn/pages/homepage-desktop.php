@@ -126,11 +126,13 @@
 	<div id="topic-events" class="topic">
 		<div class="center-wrapper">
 			<div class="events-wrapper">
-				<div class="row">
-					<div class="cell coffee text" onclick="location.href='<?php echo site_url('special-events#coffee')?>'">						
+				<div class="row">					
+					<div class="cell coffee text" onclick="location.href='<?php echo site_url('special-events#coffee')?>'">
+						<!-- 						
 						<h2>暗中咖啡</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-right.png" /></div>
 						<p>也许你喝过九十九种不同的咖啡，却独缺黑暗里的这一杯。</p>
+						 -->
 					</div>
 					<div class="cell pic">
 						<img src="<?php echo get_template_directory_uri()?>/images/index-event-coffee.jpg" />

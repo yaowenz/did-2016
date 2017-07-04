@@ -55,7 +55,7 @@
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li><a href="<?php echo site_url('special-events#coffee')?>">暗中咖啡</a></li>
+							<!-- <li><a href="<?php echo site_url('special-events#coffee')?>">暗中咖啡</a></li> -->
 							<li><a href="<?php echo site_url('special-events#adventure')?>">暗中探险</a></li>
 							<li><a href="<?php echo site_url('special-events#party')?>">暗中派对</a></li>
 							<li><a href="<?php echo site_url('special-events#music')?>">暗中音乐会</a></li>
