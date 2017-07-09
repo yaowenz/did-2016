@@ -98,7 +98,7 @@
 					</tbody>
 				</table>
 				<div class="hint">
-					<p><span class="label">旅程时间：</span><span class="text">75分钟，每5分钟出发一团，每团至多8人参与</span></p>    
+					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与</span></p>    
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
 					<p><span class="label">预约电话：</span><span class="text">（+86）028-62103889</span></p>
 					<p><span class="label">地址：</span><span class="text">成都市锦江区滨江东路232号（靠近太古里）</span></p>
@@ -118,7 +118,7 @@
 				<p>热门时段（工作日18点后，及周末全天）：120元/人</p>
 				<p>非热门时段（工作日18点前）：100元/人</p>
 				<div class="hint">
-					<p><span class="label">旅程时间：</span><span class="text">75分钟，每5分钟出发一团，每团至多8人参与</span></p>    
+					<p><span class="label">旅程时间：</span><span class="text">75分钟，每30分钟出发一团，每团至多8人参与</span></p>    
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
 					<p><span class="label">预约电话：</span><span class="text">0755-88917887</span></p>
 					<p><span class="label">地址：</span><span class="text">福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）</span></p>
