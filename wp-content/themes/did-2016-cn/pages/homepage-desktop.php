@@ -146,10 +146,10 @@
 							<img src="<?php echo get_template_directory_uri()?>/images/index-event-dinner-grey.jpg" />
 						</div>
 					</div>
-					<div class="cell dinner text" onclick="location.href='<?php echo site_url('special-events#dinner')?>'">
-						<h2>暗中夜宴</h2>
+					<div class="cell dinner text" onclick="location.href='<?php echo site_url('special-events#date')?>'">
+						<h2>暗中约会</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-left.png" /></div>
-						<p>抛弃视觉，仅用味觉、嗅觉与触觉用心感受食物。</p>
+						<p>拒绝“以貌取人”<br/>黑暗让你看见真心。</p>
 					</div>
 					<div class="cell pic">
 						<img src="<?php echo get_template_directory_uri()?>/images/index-event-adventure.jpg" />
@@ -165,15 +165,15 @@
 							<img src="<?php echo get_template_directory_uri()?>/images/index-event-party-grey.jpg" />
 						</div>
 					</div>
-					<div class="cell party text" onclick="location.href='<?php echo site_url('special-events#party')?>'">
-						<h2>暗中派对</h2>
+					<div class="cell party text" onclick="location.href='<?php echo site_url('special-events#birthday')?>'">
+						<h2>暗中生日会</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-left.png" /></div>
-						<p>黑暗特别时刻，即使我们隐藏其中，彼此却如此靠近。</p>
+						<p>庆生还能团建<br/>黑暗让你引领潮流</p>
 					</div>
-					<div class="cell music text" onclick="location.href='<?php echo site_url('special-events#music')?>'">
-						<h2>暗中音乐剧</h2>
+					<div class="cell music text" onclick="location.href='<?php echo site_url('special-events#party')?>'">
+						<h2>暗中同学会</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-right.png" /></div>
-						<p style="text-align:right">你，不仅仅是观众，<br/>你将成为音乐剧的一部分！</p>
+						<p style="text-align:right">放下书本，走出学校<br/>来一堂黑暗体验课</p>
 					</div>
 					<div class="cell pic">
 						<img src="<?php echo get_template_directory_uri()?>/images/index-event-music.jpg" />
@@ -181,10 +181,10 @@
 							<img src="<?php echo get_template_directory_uri()?>/images/index-event-music-grey.jpg" />
 						</div>
 					</div>
-					<div class="cell adventure text" onclick="location.href='<?php echo site_url('special-events#adventure')?>'">
-						<h2>暗中探险</h2>
+					<div class="cell adventure text" onclick="location.href='<?php echo site_url('special-events');?>'">
+						<h2>集体行动</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-up.png" /></div>
-						<p>寻找“达尔克文明”，我们将在黑暗中完成一系列任务。</p>
+						<p>查看更多团队项目</p>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -338,7 +338,7 @@ jQuery(function($) {
 			}
 		});
 
-		$("#topics").moveTo(6);
+		$("#topics").moveTo(4);
 	}
 
 	// 手动翻页

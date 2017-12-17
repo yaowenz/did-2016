@@ -111,24 +111,26 @@
 						<p>也许你喝过九十九种不同的咖啡，却独缺黑暗里的这一杯。</p>
 					</div>
 					-->
-					<div class="cell dinner text linkable" data-href="<?php echo site_url('special-events#dinner')?>">
-						<h2>暗中夜宴</h2>
-						<p>抛弃视觉，仅用味觉、嗅觉与触觉用心感受食物。</p>
+					<div class="cell dinner text linkable" data-href="<?php echo site_url('special-events#birthday')?>">
+						<h2>暗中生日会</h2>
+						<p>庆生还能团建，黑暗让你引领潮流。</p>
 					</div>
 					<div class="cell party text linkable" data-href="<?php echo site_url('special-events#party')?>">
-						<h2>暗中派对</h2>
-						<p>黑暗特别时刻，即使我们隐藏其中，彼此却如此靠近。</p>
+						<h2>暗中同学会</h2>
+						<p>放下书本，走出学校，来一堂黑暗体验课。</p>
 					</div>
-					<div class="cell music text linkable" data-href="<?php echo site_url('special-events#music')?>">
-						<h2>暗中音乐剧</h2>
-						<p>你，不仅仅是观众，<br/>你将成为音乐剧的一部分！</p>
+					<div class="cell music text linkable" data-href="<?php echo site_url('special-events#date')?>">
+						<h2>暗中约会</h2>
+						<p>拒绝“以貌取人”<br/>黑暗让你看见真心。</p>
 					</div>
+					<!--
 					<div class="cell adventure text linkable" data-href="<?php echo site_url('special-events#adventure')?>">
 						<h2>暗中探险</h2>
 						<p>寻找“达尔克文明”，我们将在黑暗中完成一系列任务。</p>
 					</div>
-					<div class="cell more text linkable" data-href="<?php echo site_url('contact')?>">
-						<p>联系我们<br/>定制更多活动</p>
+					 -->
+					<div class="cell more text linkable" data-href="<?php echo site_url('special-events')?>">
+						<p>更多集体行动</p>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -257,8 +259,6 @@ jQuery(function($) {
 			}
 		}
 	});
-
-
 
 	// 体验馆切换
 	$('#topic-stadium .locator').tap(function() {
