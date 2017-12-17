@@ -32,7 +32,7 @@
 			<div class="clear"></div>
 		</div>
 		<div class="section" id="challenge">
-			<div class="title wider">暗中挑战</div>
+			<div class="title">暗中挑战</div>
 			<div class="article">
 				<img src="<?php echo get_template_directory_uri()?>/images/pages/events-3.jpg" width="100%" />
 				<p class="top">
@@ -79,7 +79,7 @@
 		</div>
 		
 		<div class="section" id="duo">
-			<div class="title">多人行</div>
+			<div class="title wider">多人行</div>
 			<div class="article">
 				<p>想要参加团队项目但时间并不充裕的团体可以选择黑暗之旅多人行，也有两个方案：</p>
 				<p style="font-size:20px;color:#BB9100">光明“重现”</p>
