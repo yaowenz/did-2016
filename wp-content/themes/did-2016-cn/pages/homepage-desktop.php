@@ -338,7 +338,7 @@ jQuery(function($) {
 			}
 		});
 
-		$("#topics").moveTo(4);
+		//$("#topics").moveTo(4);
 	}
 
 	// 手动翻页
