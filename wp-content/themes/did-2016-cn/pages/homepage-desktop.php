@@ -5,14 +5,14 @@
 		<!-- Text -->
 		<div class="propaganda">
 			<div class="line-1"><img src="<?php echo get_template_directory_uri()?>/images/index-1-text.png" width="100%" /></div>
-			<div class="line-2"><img src="<?php echo get_template_directory_uri()?>/images/index-2-text.png" /></div>	
+			<div class="line-2"><img src="<?php echo get_template_directory_uri()?>/images/index-2-text.png" /></div>
 		</div>
-		<!-- Sliders -->		
+		<!-- Sliders -->
 		<div class="sliders" style="width:100%">
 			<div class="slider slider-1"></div>
 			<div class="slider slider-2"></div>
-			<div class="slider slider-3"></div>			
-		</div>		
+			<div class="slider slider-3"></div>
+		</div>
 	</div>
 	<!-- 体验馆 -->
 	<div id="topic-stadium" class="topic">
@@ -22,7 +22,7 @@
 			<div class="locator shenzhen" data-tab="shenzhen"></div>
 			<div class="locator chengdu" data-tab="chengdu"></div>
 		</div>
-		<!-- 上海 -->		
+		<!-- 上海 -->
 		<div class="introduction shanghai active" style="display:block">
 			<div class="image">
 				<img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sh.jpg" width="100%" />
@@ -33,9 +33,9 @@
 				<p class="address">
 					· 上海市黄浦区江滨路99号绿地海外滩广场2-103室
 				</p>
-				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>	
+				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>
 			</div>
-		</div>			
+		</div>
 		<!-- 深圳 -->
 		<div class="introduction shenzhen">
 			<div class="image"><img src="<?php echo get_template_directory_uri()?>/images/index-stadium-sz.jpg" width="100%" /></div>
@@ -45,10 +45,10 @@
 				<p class="address">
 					· 福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）&nbsp;/&nbsp;0755-88917887
 				</p>
-				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>		
+				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>
 				
 			</div>
-		</div>		
+		</div>
 		<!-- 成都 -->
 		<div class="introduction chengdu">
 			<div class="image">
@@ -62,10 +62,10 @@
 				</p>
 				<p class="address" style="margin-top:5px">· 周二至周四 10：00~18：00，周五至周日 10：00~20：00，   周一闭馆。</p>
 			</div>
-		</div>	
+		</div>
 	</div>
 	<!-- 工作坊 -->
-	<div id="topic-workshop" class="topic">	
+	<div id="topic-workshop" class="topic">
 		<div class="products-wrapper center-wrapper">
 			<div class="products">
 				<!-- Workshop -->
@@ -73,7 +73,7 @@
 					<div>
 						<div class="title">
 							<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-corp.jpg" width="100%" /></div>
-							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-corp.jpg" width="100%" /></div>			
+							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-corp.jpg" width="100%" /></div>
 							<h2>黑暗中对话工作坊</h2>
 							<h2 class="english">Dialogue in the dark Workshop</h2>
 						</div>
@@ -90,7 +90,7 @@
 					<div>
 						<div class="title">
 							<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-slience.jpg" width="100%" /></div>
-							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-slience.jpg" width="100%" /></div>			
+							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-slience.jpg" width="100%" /></div>
 							<h2>无声中对话工作坊</h2>
 							<h2 class="english">Dialogue in the Silence Workshop</h2>
 						</div>
@@ -108,7 +108,7 @@
 					<div>
 						<div class="title">
 							<div class="cover"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-edu.jpg" width="100%" /></div>
-							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-edu.jpg" width="100%" /></div>			
+							<div class="dimmer"><img src="<?php echo get_template_directory_uri()?>/images/index-workshop-grey-edu.jpg" width="100%" /></div>
 							<h2>教育工作坊</h2>
 							<h2 class="english">Education</h2>
 						</div>
@@ -120,15 +120,15 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 	<!-- 特别活动 -->
 	<div id="topic-events" class="topic">
 		<div class="center-wrapper">
 			<div class="events-wrapper">
-				<div class="row">					
+				<div class="row">
 					<div class="cell coffee text" onclick="location.href='<?php echo site_url('special-events#coffee')?>'">
-						<!-- 						
+						<!--
 						<h2>暗中咖啡</h2>
 						<div class="arrow"><img src="<?php echo get_template_directory_uri()?>/images/arrow-right.png" /></div>
 						<p>也许你喝过九十九种不同的咖啡，却独缺黑暗里的这一杯。</p>
@@ -156,7 +156,7 @@
 						<div class="dimmer">
 							<img src="<?php echo get_template_directory_uri()?>/images/index-event-adventure-grey.jpg" />
 						</div>
-					</div>									
+					</div>
 				</div>
 				<div class="row">
 					<div class="cell pic">
@@ -215,7 +215,7 @@
 					<p>为残障人士提供多样化的就业机会，<br/>发挥其被忽略的潜能才干</p>
 				</div>
 				<div class="clear"></div>
-			</div>			
+			</div>
 		</div>
 	</div>
 	<!-- 合作伙伴 -->
@@ -234,23 +234,23 @@
 				<div class="clear"></div>
 			</div>
 			<div class="brand-logos">
-				<table border="0" width="1000" align="center">							
+				<table border="0" width="1000" align="center">
 					<tr valign="middle">
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-1.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-2.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/greenland.jpg" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/haiwaitan.jpg" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-3.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-4.png" /></td>					
+						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-2.png" /></td>
 						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-5.png" /></td>
 					</tr>
 					<tr valign="middle">
 						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-6.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-7.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-8.png" /></td>					
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-9.png" /></td>
-						<td><img src="<?php echo get_template_directory_uri()?>/images/pages/coop-logo-10.png" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/canlian.jpg" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/rede.jpg" /></td>
+						<td><img src="<?php echo get_template_directory_uri()?>/images/logos/wanyuan.jpg" /></td>
+						<td></td>
 					</tr>
 				</table>
-				<div class="copyright" style="width:700px;margin:auto;margin-top:30px">				
+				<div class="copyright" style="width:700px;margin:auto;margin-top:30px">
 					<div style="float:left;width:200px;text-align:center">
 						<p style="margin:10px 0px"><a href="http://www.dialogue-se.com/"><img src="<?php echo get_template_directory_uri()?>/images/didse.png" width="120" /></a></p>
 					</div>
@@ -279,10 +279,10 @@ var topicAnimation = {
 };
 
 if(!topicAnimation.onepageSupport) {
-	jQuery('.comments > div img').css('display', 'block');	
+	jQuery('.comments > div img').css('display', 'block');
 }
 
-jQuery(function($) {	
+jQuery(function($) {
 	$('#topic-home .sliders').slick({
 		dots: false,
 		infinite: true,
@@ -293,8 +293,9 @@ jQuery(function($) {
 		speed: 3000,
 		variableWidth: true,
 		pauseOnHover: false,
-		useCss: false,	
-		fade: true	
+		useCss: false,
+		fade: true,
+		//initialSlide: 1
 	});
 
 	// 动画
@@ -320,13 +321,13 @@ jQuery(function($) {
 			responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
 			                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
 			                                    // the browser's width is less than 600, the fallback will kick in.
-			direction: "vertical",            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+			direction: "vertical",            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
 			afterMove: function(index) {
 				// 合作伙伴动画
 				if(index == 6) {
 					$('#topic-partners .comment-1 img').fadeIn(500);
 					setTimeout(function() {
-						$('#topic-partners .comment-2 img').fadeIn(500);						
+						$('#topic-partners .comment-2 img').fadeIn(500);
 					}, 1600);
 					
 					setTimeout(function() {
@@ -336,7 +337,9 @@ jQuery(function($) {
 				}
 			}
 		});
-	}	
+
+		$("#topics").moveTo(6);
+	}
 
 	// 手动翻页
 	$('#arrow-down > img').click(function() {
@@ -349,28 +352,28 @@ jQuery(function($) {
 				topicAnimation.currentIndex = 0;
 				$.scrollTo(0, 500);
 			}
-			else {				
-				$.scrollTo($($('#topics .topic')[topicAnimation.currentIndex]).offset().top, 500,  {axis:'y'});				
+			else {
+				$.scrollTo($($('#topics .topic')[topicAnimation.currentIndex]).offset().top, 500,  {axis:'y'});
 			}
 		}
 	});
 
 	// 体验馆切换
-	$('#topic-stadium .locator').click(function() {	
+	$('#topic-stadium .locator').click(function() {
 		var locator = this;
 		$('.locator.active').removeClass('active');
-		$(this).addClass('active');	
+		$(this).addClass('active');
 		$('#topic-stadium .introduction.active').fadeOut(300, function() {
 			$(this).removeClass('active');
 			$('#topic-stadium .introduction.' + $(locator).data('tab')).addClass('active');
 			$('#topic-stadium .introduction.' + $(locator).data('tab')).fadeIn(300);
 		});
-		//$('#topic-stadium .introduction.active').removeClass('active');		
+		//$('#topic-stadium .introduction.active').removeClass('active');
 	});
 
 	// 工作坊切换
 	$('#topic-workshop .product').hover(
-		function() {			
+		function() {
 			$('.products').css('width', '1310px')
 			if(!$(this).hasClass('no-offset')) {
 				$('.products-wrapper').addClass('hover-workshop');
@@ -380,7 +383,7 @@ jQuery(function($) {
 			$('.products').css('width', '960px')
 			$('.products-wrapper').removeClass('hover-workshop');
 		}
-	);	
+	);
 
 	//$("#topics").moveTo(6);
 });
