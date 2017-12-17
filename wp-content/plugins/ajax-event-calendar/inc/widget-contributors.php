@@ -58,7 +58,7 @@ class aec_contributor_list extends WP_Widget {
 
 	
 	/** @see WP_Widget::form */
-	function form () {
+	function form ($instance) {
 		_e('No options available.', AEC_NAME);
 	}
 }
