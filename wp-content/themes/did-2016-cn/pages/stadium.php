@@ -49,7 +49,7 @@
 					</tbody>
 				</table>
 				<div class="hint">					
-					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与；周一闭馆。</span></p>    
+					<p><span class="label">旅程时间：</span><span class="text">65分钟，每15分钟出发一团，每团至多8人参与；周一闭馆。</span></p>    
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
 					<p><span class="label">地址：</span><span class="text">上海市黄浦区江滨路99号绿地海外滩广场2-103室</span></p>
 					<p><span class="text">*视障者及其他特殊人群需有人陪同方能进入，本人免费，陪同者需支付费体验。</span></p>    
@@ -84,17 +84,7 @@
 							<td>全日制大学生</td>
 							<td>￥80元/人</td>
 							<td>￥96元/人</td>					
-						</tr>
-						<tr>
-							<td>18岁以下青少年</td>
-							<td>￥80元/人</td>
-							<td>￥96元/人</td>					
-						</tr>
-						<tr>
-							<td>60岁以上老人</td>
-							<td>￥80元/人</td>
-							<td>￥96元/人</td>					
-						</tr>
+						</tr>						
 					</tbody>
 				</table>
 				<div class="hint">
