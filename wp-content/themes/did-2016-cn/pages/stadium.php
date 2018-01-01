@@ -79,12 +79,7 @@
 							<td>成人</td>
 							<td>￥100元/人</td>
 							<td>￥120元/人</td>					
-						</tr>
-						<tr>
-							<td>全日制大学生</td>
-							<td>￥80元/人</td>
-							<td>￥96元/人</td>					
-						</tr>						
+						</tr>								
 					</tbody>
 				</table>
 				<div class="hint">
