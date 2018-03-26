@@ -33,7 +33,7 @@
 				<p class="address">
 					· 上海市黄浦区江滨路99号绿地海外滩广场2-103室
 				</p>
-				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30。</p>
+				<p class="address" style="margin-top:5px">· 周二至周日（周一闭馆）10：00~20：30，周日营业至18：30（17：30最后一场）；中午12：00~13：00休息。</p>
 			</div>
 		</div>
 		<!-- 深圳 -->
