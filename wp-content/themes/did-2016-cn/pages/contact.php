@@ -28,7 +28,7 @@
 				<h3 class="orange">黑暗中对话（中国）成都体验馆</h3>
 				<p class="tight">成都市锦江区滨江东路232号（靠近太古里）</p>
 				<p class="tight">O: 028 - 6210 3889</p>
-				<p class="tight">M: 186 1577 1077</p>
+				<p class="tight">M: 134 5858 7447</p>
 				<p>E: info@dialogue-in-the-dark.org.cn</p>
 				<p class="wx-qr">
 					<img src="<?php echo get_template_directory_uri()?>/images/qr-cd.jpg" width="200" /><br/>
