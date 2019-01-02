@@ -40,7 +40,6 @@
 							<li><a href="<?php echo site_url('workshop')?>">黑暗中对话工作坊</a></li>
 							<li><a href="<?php echo site_url('workshop-slience')?>">无声中对话工作坊</a></li>
 							<li><a href="<?php echo site_url('workshop-edu')?>">教育工作坊</a></li>
-							<li><a href="<?php echo site_url('workshop-calendar')?>">日程表</a></li>
 						</ul>
 						<p class="brief">针对企业，政府机构和组织开发，是极少数可在短时间内改变参与者行为模式的体验式培训之一</p>
 					</div>

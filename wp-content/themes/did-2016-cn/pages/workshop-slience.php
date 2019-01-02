@@ -9,13 +9,13 @@
 				<img src="<?php echo get_template_directory_uri()?>/images/pages/workshop-slience-1.jpg" width="100%" />
 			</div>
 		</div>
-		<div class="section">		
+		<div class="section">
 			<div class="article">
 				<h3 class="sub">超越语言的沟通</h3>
 				<p>无声中对话工作坊将完美展现哑剧、动作和身体语言对于理解力的影响。</p>
 				<p>在日常工作和生活中,我们已经在有意识地使用表情、手势、动作和身体语言以更有效沟通。而在无声中对话工作坊,参加者有机会深入探索已 有的非语言沟通技能,并运用洞察力不断发展完善。 </p>
 				<p>理解要求人们积极聆听,并同时关注他人的非语言沟通行为。解读技巧的运用将帮助人们之间的相互理解,通常大家会重复,或用其他的句式加非语言沟通方式来重新表达,通过这样的反馈来增进相互理解。</p>
-			</div>		
+			</div>
 		</div>
 		<div class="section features">
 			<div class="article" style="padding-left:100px">
@@ -41,11 +41,11 @@
 						<p>· 人数： <span class="text">每场8-40人</span></p>
 						<p>· 时间： <span class="text">标准工作坊3小时，定制工作坊1-3天</span></p>
 						<p>· 地点： <span class="text">光房，每场20人左右最佳,也可具体协调。</p>
-						<p>· 费用：<span class="text">3小时标准定制工作坊：16000RMB/21000RMB(中/英文，不含税，不包括场地及差旅费用)</span></p>
+						<p>· 费用：<span class="text">请来电咨询，(021)-63020090；13661626840；18964999792</span></p>
 	  				</div>
 				</div>
 				<div class="clear"></div>
-			</div>		
+			</div>
 		</div>
 		<div class="clear"></div>
 	</div>
