@@ -37,8 +37,8 @@
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li><a href="<?php echo site_url('workshop')?>">黑暗中对话工作坊</a></li>
-							<li><a href="<?php echo site_url('workshop-slience')?>">无声中对话工作坊</a></li>
+							<li><a href="<?php echo site_url('workshop')?>">黑暗中对话工作坊 WSD</a></li>
+							<li><a href="<?php echo site_url('workshop-slience')?>">无声中对话工作坊 WSS</a></li>
 							<li><a href="<?php echo site_url('workshop-edu')?>">教育工作坊</a></li>
 						</ul>
 						<p class="brief">针对企业，政府机构和组织开发，是极少数可在短时间内改变参与者行为模式的体验式培训之一</p>
@@ -54,10 +54,10 @@
 				<div class="sub-menu">
 					<div class="list">
 						<ul>
-							<li><a href="<?php echo site_url('special-events#team')?>">暗中团建</a></li>
-							<li><a href="<?php echo site_url('special-events#challenge')?>">暗中挑战</a></li>
-							<li><a href="<?php echo site_url('special-events#meets')?>">暗中全会</a></li>
-							<li><a href="<?php echo site_url('special-events#duo')?>">黑暗之旅多人行</a></li>
+							<li><a href="<?php echo site_url('special-events#team')?>">隐形任务 TB1</a></li>
+							<li><a href="<?php echo site_url('special-events#challenge')?>">暗中挑战 TB2</a></li>							
+							<li><a href="<?php echo site_url('special-events#duo')?>">黑暗多人行 TB3</a></li>
+							<li><a href="<?php echo site_url('special-events#meets')?>">特别定制 SP</a></li>
 						</ul>
 					</div>
 					<div class="image">

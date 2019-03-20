@@ -25,8 +25,8 @@
 					<span>工作坊</span>
 				</div>
 				<div class="sub hidden">
-					<div data-href="<?php echo site_url('workshop')?>">黑暗中对话工作坊</div>
-					<div data-href="<?php echo site_url('workshop-slience')?>">无声中对话工作坊</div>
+					<div data-href="<?php echo site_url('workshop')?>">黑暗中对话工作坊 WSD</div>
+					<div data-href="<?php echo site_url('workshop-slience')?>">无声中对话工作坊 WSS</div>
 					<div data-href="<?php echo site_url('workshop-edu')?>">教育工作坊</div>
 				</div>
 			</div>
