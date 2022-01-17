@@ -20,7 +20,7 @@
 					<p>期待热爱自由、冒险的你加入这段“黑暗旅程”，<span class="orange">准备好重新发掘世界的不同了吗？</span></p>
 					<p style="border-bottom:1px solid #999;margin:30px 0px"></p>
 					<p style="color:#999;font-size:14px">所有的导赏员都是视障人士，受聘于黑暗中的对话，并接受过专业的训练。他们陪伴参观者完成整个体验，并将这样的经一个富有想象力，寓教于乐的体验：突破焦虑和迷茫，通过其他感官感知世界的喜悦！</p>
-				</div>				
+				</div>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -37,22 +37,22 @@
 						<tr>
 							<td width="20%"></td>
 							<td width="40%">热门时段<br/>（工作日18点后及周末、节假日）</td>
-							<td width="40%">非热门时段<br/>（工作日18点前）</td>					
+							<td width="40%">非热门时段<br/>（工作日18点前）</td>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>成人</td>
 							<td>￥150元/人</td>
-							<td>￥120元/人</td>					
+							<td>￥120元/人</td>
 						</tr>
 					</tbody>
 				</table>
-				<div class="hint">					
-					<p><span class="label">旅程时间：</span><span class="text">65分钟，每15分钟出发一团，每团至多8人参与；周一闭馆。</span></p>    
+				<div class="hint">
+					<p><span class="label">旅程时间：</span><span class="text">65分钟，每15分钟出发一团，每团至多8人参与；周一闭馆。</span></p>
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
 					<p><span class="label">地址：</span><span class="text">上海市黄浦区江滨路99号绿地海外滩广场2-103室</span></p>
-					<p><span class="text">*视障者及其他特殊人群需有人陪同方能进入，本人免费，陪同者需支付费体验。</span></p>    
+					<p><span class="text">*视障者及其他特殊人群需有人陪同方能进入，本人免费，陪同者需支付费体验。</span></p>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -71,19 +71,19 @@
 						<tr>
 							<td width="20%"></td>
 							<td width="40%">周二 ~ 周五</td>
-							<td width="40%">周六、周日及公众假期</td>					
+							<td width="40%">周六、周日及公众假期</td>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>成人</td>
 							<td>￥100元/人</td>
-							<td>￥120元/人</td>					
-						</tr>								
+							<td>￥120元/人</td>
+						</tr>
 					</tbody>
 				</table>
 				<div class="hint">
-					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与</span></p>    
+					<p><span class="label">旅程时间：</span><span class="text">75分钟，每15分钟出发一团，每团至多8人参与</span></p>
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
 					<p><span class="label">预约电话：</span><span class="text">（+86）028-62103889</span></p>
 					<p><span class="label">地址：</span><span class="text">成都市锦江区滨江东路232号（靠近太古里）</span></p>
@@ -95,18 +95,31 @@
 		<div class="section" id="trip-shenzhen">
 			<div class="title single">深圳</div>
 			<div class="article">
-				<p>“黑暗中对话”深圳馆其地处深圳繁华市中心，交通便利，紧邻车公庙地铁口。</p>
 				<p>作为华南区首家“黑暗中对话”体验馆，除了“黑暗之旅”与“企业工作坊”项目以外，还创新地推出了黑暗约会、黑暗酒会、黑暗中身体作画、黑暗美食品鉴、隐形任务等系列活动。因此，“黑暗中对话”体验馆也被称为深圳「黑店」。</p>
 				<p>在不同行业中也能看见“黑店”的影子，与WWF“地球一小时”联合推出「黑暗大使」活动，携手中国（深圳）女子马拉松推出「黑暗奔跑」也正因为创新的“黑暗精神”，体验馆在不到三个月内便收获了阿里巴巴、腾讯、迈瑞医疗、TCL、艾瑞电子等大型企业客户的一致好评。</p>
 				<img src="<?php echo get_template_directory_uri()?>/images/pages/stadium-3.jpg" width="100%" />
 				<h3>体验价格</h3>
-				<p>热门时段（工作日18点后，及周末全天）：120元/人</p>
-				<p>非热门时段（工作日18点前）：100元/人</p>
+				<table width="100%" class="price">
+					<thead>
+						<tr>
+							<td width="20%"></td>
+							<td width="40%">工作日</td>
+							<td width="40%">周六、周日及公众假期</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>成人</td>
+							<td>￥120元/人</td>
+							<td>￥138元/人</td>
+						</tr>
+					</tbody>
+				</table>
 				<div class="hint">
-					<p><span class="label">旅程时间：</span><span class="text">75分钟，每30分钟出发一团，每团至多8人参与</span></p>    
+					<p><span class="label">旅程时间：</span><span class="text">75分钟，每30分钟出发一团，每团至多8人参与</span></p>
 					<p><span class="label">语言：</span><span class="text">普通话、英语（有障碍人士或有特殊语言需求请提前致电场馆预约咨询）</span> </p>
 					<p><span class="label">预约电话：</span><span class="text">0755-88917887</span></p>
-					<p><span class="label">地址：</span><span class="text">福田深南大道6017号都市阳光名苑群楼2楼（车公庙C出口）</span></p>
+					<p><span class="label">地址：</span><span class="text">福田区园岭街道华林社区八卦二路八卦岭工业区524栋301（八卦岭B出口）</span></p>
 				</div>
 			</div>
 			<div class="clear"></div>
